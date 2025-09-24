@@ -34,16 +34,20 @@ public class ProductController extends HttpServlet {
     List<Product> products = new ArrayList<>();
     Product product = null;
     String id = "";
+    String view = "/ch05";
     switch (action) {
       case "list" :
         products = service.findAll();
-        System.out.println(products);
+        req.setAttribute("products", products);
+        view += "/product-list.jsp";
         break;
       case "info" :
         id = req.getParameter("id");
         product = service.find(id);
-        System.out.println(product);
+        req.setAttribute("product", product);
+        view += "/product-info.jsp";
         break;
     }
+    req.getRequestDispatcher(view).forward(req, resp);
   }
 }
