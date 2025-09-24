@@ -6,6 +6,8 @@
 <title>Hello JSP</title>
 </head>
 <body>
-
+    <h1>계산 결과</h1>
+    <hr>
+    <%= request.getAttribute("result") %>
 </body>
 </html>
