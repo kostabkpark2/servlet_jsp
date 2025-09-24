@@ -119,3 +119,13 @@
 0:0:0:0:0:0:0:1 - - [24/Sep/2025:16:50:14 +0900] "GET /products?action=info&id=1 HTTP/1.1" 200 371
 0:0:0:0:0:0:0:1 - - [24/Sep/2025:16:50:18 +0900] "GET /products?action=info&id=2 HTTP/1.1" 200 371
 0:0:0:0:0:0:0:1 - - [24/Sep/2025:16:50:21 +0900] "GET /products?action=info&id=1 HTTP/1.1" 200 371
+0:0:0:0:0:0:0:1 - - [24/Sep/2025:16:58:14 +0900] "GET /products?action=info&id=1 HTTP/1.1" 500 3324
+0:0:0:0:0:0:0:1 - - [24/Sep/2025:17:00:32 +0900] "GET /products?action=info&id=1 HTTP/1.1" 500 13258
+0:0:0:0:0:0:0:1 - - [24/Sep/2025:17:01:07 +0900] "GET /products?action=info&id=1 HTTP/1.1" 500 2759
+0:0:0:0:0:0:0:1 - - [24/Sep/2025:17:01:12 +0900] "GET /products?action=info&id=1 HTTP/1.1" 500 2759
+0:0:0:0:0:0:0:1 - - [24/Sep/2025:17:01:33 +0900] "GET /products?action=info&id=1 HTTP/1.1" 500 2761
+0:0:0:0:0:0:0:1 - - [24/Sep/2025:17:01:36 +0900] "GET /products?action=info&id=1 HTTP/1.1" 500 2761
+0:0:0:0:0:0:0:1 - - [24/Sep/2025:17:02:34 +0900] "GET /products?action=info&id=1 HTTP/1.1" 500 2761
+0:0:0:0:0:0:0:1 - - [24/Sep/2025:17:02:49 +0900] "GET /products?action=info&id=1 HTTP/1.1" 500 2761
+0:0:0:0:0:0:0:1 - - [24/Sep/2025:17:02:49 +0900] "GET /products?action=info&id=1 HTTP/1.1" 500 3743
+0:0:0:0:0:0:0:1 - - [24/Sep/2025:17:04:05 +0900] "GET /products?action=info&id=1 HTTP/1.1" 200 375
