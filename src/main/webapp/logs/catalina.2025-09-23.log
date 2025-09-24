@@ -1,0 +1,501 @@
+23-Sep-2025 16:19:44.555 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¼­¹ö ¹öÀü ÀÌ¸§:    Apache Tomcat/9.0.109
+23-Sep-2025 16:19:44.564 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ºôµå ½Ã°¢:  Sep 1 2025 12:15:33 UTC
+23-Sep-2025 16:19:44.564 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ¹öÀü ¹øÈ£:  9.0.109.0
+23-Sep-2025 16:19:44.564 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ÀÌ¸§:     Windows 10
+23-Sep-2025 16:19:44.564 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ¹öÀü:     10.0
+23-Sep-2025 16:19:44.564 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¾ÆÅ°ÅØÃ³:          amd64
+23-Sep-2025 16:19:44.566 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ÀÚ¹Ù È¨:           C:\Users\wd\.jdks\ms-17.0.16
+23-Sep-2025 16:19:44.566 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ¹öÀü:          17.0.16+8-LTS
+23-Sep-2025 16:19:44.567 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM º¥´õ:          Microsoft
+23-Sep-2025 16:19:44.567 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 16:19:44.567 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 16:19:44.586 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Sep-2025 16:19:44.587 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.io=ALL-UNNAMED
+23-Sep-2025 16:19:44.587 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util=ALL-UNNAMED
+23-Sep-2025 16:19:44.588 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Sep-2025 16:19:44.588 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Sep-2025 16:19:44.588 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.home=C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 16:19:44.589 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.base=C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 16:19:44.590 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.io.tmpdir=C:\dev\workspace\jsp_webapp\src\main\webapp\temp
+23-Sep-2025 16:19:44.592 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.config.file=C:\dev\workspace\jsp_webapp\src\main\webapp\conf\logging.properties
+23-Sep-2025 16:19:44.593 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Sep-2025 16:19:44.593 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=62796:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+23-Sep-2025 16:19:44.594 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dfile.encoding=UTF-8
+23-Sep-2025 16:19:44.616 Á¤º¸ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent ÇÁ·Î´ö¼Ç È¯°æµé¿¡¼­ ÃÖÀûÀÇ ¼º´ÉÀ» Á¦°øÇÏ´Â, APR ±â¹İ Apache Tomcat Native ¶óÀÌºê·¯¸®°¡, ´ÙÀ½ java.library.path¿¡¼­ ¹ß°ßµÇÁö ¾Ê½À´Ï´Ù: [C:\Users\wd\.jdks\ms-17.0.16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Terraform;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\Users\wd\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin;;C:\Users\wd\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.1.1\bin;;C:\Users\wd\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+23-Sep-2025 16:19:45.079 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.init ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÃÊ±âÈ­ÇÕ´Ï´Ù.
+23-Sep-2025 16:19:45.113 Á¤º¸ [main] org.apache.catalina.startup.Catalina.load [958] ¹Ğ¸®ÃÊ ³»¿¡ ¼­¹ö°¡ ÃÊ±âÈ­µÇ¾ú½À´Ï´Ù.
+23-Sep-2025 16:19:45.208 Á¤º¸ [main] org.apache.catalina.core.StandardService.startInternal ¼­ºñ½º [Catalina]À»(¸¦) ½ÃÀÛÇÕ´Ï´Ù.
+23-Sep-2025 16:19:45.208 Á¤º¸ [main] org.apache.catalina.core.StandardEngine.startInternal ¼­¹ö ¿£ÁøÀ» ½ÃÀÛÇÕ´Ï´Ù: [Apache Tomcat/9.0.109]
+23-Sep-2025 16:19:45.269 Á¤º¸ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]À»(¸¦) ¹èÄ¡ÇÕ´Ï´Ù.
+23-Sep-2025 16:19:46.434 °æ°í [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] ¾Ë°í¸®ÁòÀ» »ç¿ëÇÏ¿©, ¼¼¼Ç ID¸¦ »ı¼ºÇÏ±â À§ÇÑ SecureRandom °´Ã¼¸¦ »ı¼ºÇÏ´Âµ¥, [160] ¹Ğ¸®ÃÊ°¡ ¼Ò¿äµÆ½À´Ï´Ù.
+23-Sep-2025 16:19:46.460 Á¤º¸ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]ÀÇ ¹èÄ¡°¡ [1,191] ¹Ğ¸®ÃÊ ³»¿¡ ¿Ï·áµÇ¾ú½À´Ï´Ù.
+23-Sep-2025 16:19:46.466 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.start ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ½ÃÀÛÇÕ´Ï´Ù.
+23-Sep-2025 16:19:46.643 Á¤º¸ [main] org.apache.catalina.startup.Catalina.start ¼­¹ö°¡ [1530] ¹Ğ¸®ÃÊ ³»¿¡ ½ÃÀÛµÇ¾ú½À´Ï´Ù.
+23-Sep-2025 16:39:47.383 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¼­¹ö ¹öÀü ÀÌ¸§:    Apache Tomcat/9.0.109
+23-Sep-2025 16:39:47.390 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ºôµå ½Ã°¢:  Sep 1 2025 12:15:33 UTC
+23-Sep-2025 16:39:47.390 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ¹öÀü ¹øÈ£:  9.0.109.0
+23-Sep-2025 16:39:47.391 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ÀÌ¸§:     Windows 10
+23-Sep-2025 16:39:47.392 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ¹öÀü:     10.0
+23-Sep-2025 16:39:47.392 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¾ÆÅ°ÅØÃ³:          amd64
+23-Sep-2025 16:39:47.393 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ÀÚ¹Ù È¨:           C:\Users\wd\.jdks\ms-17.0.16
+23-Sep-2025 16:39:47.394 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ¹öÀü:          17.0.16+8-LTS
+23-Sep-2025 16:39:47.394 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM º¥´õ:          Microsoft
+23-Sep-2025 16:39:47.394 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 16:39:47.394 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 16:39:47.408 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Sep-2025 16:39:47.409 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.io=ALL-UNNAMED
+23-Sep-2025 16:39:47.409 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util=ALL-UNNAMED
+23-Sep-2025 16:39:47.409 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Sep-2025 16:39:47.409 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Sep-2025 16:39:47.409 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.home=C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 16:39:47.411 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.base=C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 16:39:47.411 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.io.tmpdir=C:\dev\workspace\jsp_webapp\src\main\webapp\temp
+23-Sep-2025 16:39:47.411 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.config.file=C:\dev\workspace\jsp_webapp\src\main\webapp\conf\logging.properties
+23-Sep-2025 16:39:47.412 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Sep-2025 16:39:47.412 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=64385:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+23-Sep-2025 16:39:47.413 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dfile.encoding=UTF-8
+23-Sep-2025 16:39:47.434 Á¤º¸ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent ÇÁ·Î´ö¼Ç È¯°æµé¿¡¼­ ÃÖÀûÀÇ ¼º´ÉÀ» Á¦°øÇÏ´Â, APR ±â¹İ Apache Tomcat Native ¶óÀÌºê·¯¸®°¡, ´ÙÀ½ java.library.path¿¡¼­ ¹ß°ßµÇÁö ¾Ê½À´Ï´Ù: [C:\Users\wd\.jdks\ms-17.0.16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Terraform;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\Users\wd\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin;;C:\Users\wd\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.1.1\bin;;C:\Users\wd\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+23-Sep-2025 16:39:47.893 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.init ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÃÊ±âÈ­ÇÕ´Ï´Ù.
+23-Sep-2025 16:39:47.935 ½É°¢ [main] org.apache.catalina.util.LifecycleBase.handleSubClassException ±¸¼º¿ä¼Ò [Connector["http-nio-8080"]]À»(¸¦) ÃÊ±âÈ­ÇÏÁö ¸øÇß½À´Ï´Ù.
+	org.apache.catalina.LifecycleException: ÇÁ·ÎÅäÄİ ÇÚµé·¯ ÃÊ±âÈ­°¡ ½ÇÆĞÇß½À´Ï´Ù.
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1072)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:522)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:986)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:690)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:713)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:298)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:253)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1467)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1480)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:663)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1070)
+		... 13 more
+23-Sep-2025 16:39:47.939 Á¤º¸ [main] org.apache.catalina.startup.Catalina.load [936] ¹Ğ¸®ÃÊ ³»¿¡ ¼­¹ö°¡ ÃÊ±âÈ­µÇ¾ú½À´Ï´Ù.
+23-Sep-2025 16:39:48.054 Á¤º¸ [main] org.apache.catalina.core.StandardService.startInternal ¼­ºñ½º [Catalina]À»(¸¦) ½ÃÀÛÇÕ´Ï´Ù.
+23-Sep-2025 16:39:48.055 Á¤º¸ [main] org.apache.catalina.core.StandardEngine.startInternal ¼­¹ö ¿£ÁøÀ» ½ÃÀÛÇÕ´Ï´Ù: [Apache Tomcat/9.0.109]
+23-Sep-2025 16:39:48.070 Á¤º¸ [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy ÄÁÅØ½ºÆ® []ÀÇ ¹èÄ¡¸¦ Á¦°ÅÇÕ´Ï´Ù.
+23-Sep-2025 16:39:48.076 Á¤º¸ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]À»(¸¦) ¹èÄ¡ÇÕ´Ï´Ù.
+23-Sep-2025 16:39:48.953 Á¤º¸ [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]À»(¸¦) ¹èÄ¡ÇÕ´Ï´Ù.
+23-Sep-2025 16:39:49.140 °æ°í [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] ¾Ë°í¸®ÁòÀ» »ç¿ëÇÏ¿©, ¼¼¼Ç ID¸¦ »ı¼ºÇÏ±â À§ÇÑ SecureRandom °´Ã¼¸¦ »ı¼ºÇÏ´Âµ¥, [206] ¹Ğ¸®ÃÊ°¡ ¼Ò¿äµÆ½À´Ï´Ù.
+23-Sep-2025 16:39:49.149 Á¤º¸ [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]ÀÇ ¹èÄ¡°¡ [195] ¹Ğ¸®ÃÊ ³»¿¡ ¿Ï·áµÇ¾ú½À´Ï´Ù.
+23-Sep-2025 16:39:49.177 Á¤º¸ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]ÀÇ ¹èÄ¡°¡ [1,101] ¹Ğ¸®ÃÊ ³»¿¡ ¿Ï·áµÇ¾ú½À´Ï´Ù.
+23-Sep-2025 16:39:49.190 Á¤º¸ [main] org.apache.catalina.startup.Catalina.start ¼­¹ö°¡ [1250] ¹Ğ¸®ÃÊ ³»¿¡ ½ÃÀÛµÇ¾ú½À´Ï´Ù.
+23-Sep-2025 16:39:49.206 ½É°¢ [main] org.apache.catalina.core.StandardServer.await ÁÖ¼Ò [localhost]¿Í(°ú) Æ÷Æ® [8005]¿¡, ¼­¹ö ¼Ë´Ù¿î ¼ÒÄÏÀ» »ı¼ºÇÏÁö ¸øÇß½À´Ï´Ù. (base Æ÷Æ® [8005], offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:537)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:829)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:777)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+23-Sep-2025 16:39:49.207 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.pause ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÀÏ½Ã Á¤Áö Áß
+23-Sep-2025 16:39:49.208 Á¤º¸ [main] org.apache.catalina.core.StandardService.stopInternal ¼­ºñ½º [Catalina]À»(¸¦) ÁßÁö½ÃÅµ´Ï´Ù.
+23-Sep-2025 16:39:49.219 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.stop ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÁßÁö½ÃÅµ´Ï´Ù.
+23-Sep-2025 16:39:49.220 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.destroy ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ¼Ò¸ê½ÃÅµ´Ï´Ù.
+23-Sep-2025 16:40:00.274 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.pause ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÀÏ½Ã Á¤Áö Áß
+23-Sep-2025 16:40:01.570 Á¤º¸ [Thread-1] org.apache.catalina.core.StandardService.stopInternal ¼­ºñ½º [Catalina]À»(¸¦) ÁßÁö½ÃÅµ´Ï´Ù.
+23-Sep-2025 16:40:01.576 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.stop ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÁßÁö½ÃÅµ´Ï´Ù.
+23-Sep-2025 16:40:01.580 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.destroy ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ¼Ò¸ê½ÃÅµ´Ï´Ù.
+23-Sep-2025 16:40:18.341 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¼­¹ö ¹öÀü ÀÌ¸§:    Apache Tomcat/9.0.109
+23-Sep-2025 16:40:18.348 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ºôµå ½Ã°¢:  Sep 1 2025 12:15:33 UTC
+23-Sep-2025 16:40:18.348 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ¹öÀü ¹øÈ£:  9.0.109.0
+23-Sep-2025 16:40:18.348 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ÀÌ¸§:     Windows 10
+23-Sep-2025 16:40:18.349 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ¹öÀü:     10.0
+23-Sep-2025 16:40:18.349 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¾ÆÅ°ÅØÃ³:          amd64
+23-Sep-2025 16:40:18.349 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ÀÚ¹Ù È¨:           C:\Users\wd\.jdks\ms-17.0.16
+23-Sep-2025 16:40:18.349 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ¹öÀü:          17.0.16+8-LTS
+23-Sep-2025 16:40:18.350 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM º¥´õ:          Microsoft
+23-Sep-2025 16:40:18.350 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 16:40:18.350 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 16:40:18.367 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Sep-2025 16:40:18.368 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.io=ALL-UNNAMED
+23-Sep-2025 16:40:18.368 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util=ALL-UNNAMED
+23-Sep-2025 16:40:18.368 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Sep-2025 16:40:18.368 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Sep-2025 16:40:18.369 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.home=C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 16:40:18.369 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.base=C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 16:40:18.369 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.io.tmpdir=C:\dev\workspace\jsp_webapp\src\main\webapp\temp
+23-Sep-2025 16:40:18.370 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.config.file=C:\dev\workspace\jsp_webapp\src\main\webapp\conf\logging.properties
+23-Sep-2025 16:40:18.370 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Sep-2025 16:40:18.370 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=64411:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+23-Sep-2025 16:40:18.370 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dfile.encoding=UTF-8
+23-Sep-2025 16:40:18.395 Á¤º¸ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent ÇÁ·Î´ö¼Ç È¯°æµé¿¡¼­ ÃÖÀûÀÇ ¼º´ÉÀ» Á¦°øÇÏ´Â, APR ±â¹İ Apache Tomcat Native ¶óÀÌºê·¯¸®°¡, ´ÙÀ½ java.library.path¿¡¼­ ¹ß°ßµÇÁö ¾Ê½À´Ï´Ù: [C:\Users\wd\.jdks\ms-17.0.16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Terraform;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\Users\wd\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin;;C:\Users\wd\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.1.1\bin;;C:\Users\wd\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+23-Sep-2025 16:40:18.910 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.init ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÃÊ±âÈ­ÇÕ´Ï´Ù.
+23-Sep-2025 16:40:18.953 Á¤º¸ [main] org.apache.catalina.startup.Catalina.load [1050] ¹Ğ¸®ÃÊ ³»¿¡ ¼­¹ö°¡ ÃÊ±âÈ­µÇ¾ú½À´Ï´Ù.
+23-Sep-2025 16:40:19.036 Á¤º¸ [main] org.apache.catalina.core.StandardService.startInternal ¼­ºñ½º [Catalina]À»(¸¦) ½ÃÀÛÇÕ´Ï´Ù.
+23-Sep-2025 16:40:19.036 Á¤º¸ [main] org.apache.catalina.core.StandardEngine.startInternal ¼­¹ö ¿£ÁøÀ» ½ÃÀÛÇÕ´Ï´Ù: [Apache Tomcat/9.0.109]
+23-Sep-2025 16:40:19.053 Á¤º¸ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]À»(¸¦) ¹èÄ¡ÇÕ´Ï´Ù.
+23-Sep-2025 16:40:19.771 °æ°í [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] ¾Ë°í¸®ÁòÀ» »ç¿ëÇÏ¿©, ¼¼¼Ç ID¸¦ »ı¼ºÇÏ±â À§ÇÑ SecureRandom °´Ã¼¸¦ »ı¼ºÇÏ´Âµ¥, [166] ¹Ğ¸®ÃÊ°¡ ¼Ò¿äµÆ½À´Ï´Ù.
+23-Sep-2025 16:40:19.803 Á¤º¸ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]ÀÇ ¹èÄ¡°¡ [750] ¹Ğ¸®ÃÊ ³»¿¡ ¿Ï·áµÇ¾ú½À´Ï´Ù.
+23-Sep-2025 16:40:19.813 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.start ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ½ÃÀÛÇÕ´Ï´Ù.
+23-Sep-2025 16:40:19.999 Á¤º¸ [main] org.apache.catalina.startup.Catalina.start ¼­¹ö°¡ [1045] ¹Ğ¸®ÃÊ ³»¿¡ ½ÃÀÛµÇ¾ú½À´Ï´Ù.
+23-Sep-2025 16:41:16.700 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.pause ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÀÏ½Ã Á¤Áö Áß
+23-Sep-2025 16:41:17.917 Á¤º¸ [Thread-1] org.apache.catalina.core.StandardService.stopInternal ¼­ºñ½º [Catalina]À»(¸¦) ÁßÁö½ÃÅµ´Ï´Ù.
+23-Sep-2025 16:41:17.929 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.stop ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÁßÁö½ÃÅµ´Ï´Ù.
+23-Sep-2025 16:41:17.956 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.destroy ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ¼Ò¸ê½ÃÅµ´Ï´Ù.
+23-Sep-2025 16:41:24.319 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¼­¹ö ¹öÀü ÀÌ¸§:    Apache Tomcat/9.0.109
+23-Sep-2025 16:41:24.324 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ºôµå ½Ã°¢:  Sep 1 2025 12:15:33 UTC
+23-Sep-2025 16:41:24.324 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ¹öÀü ¹øÈ£:  9.0.109.0
+23-Sep-2025 16:41:24.325 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ÀÌ¸§:     Windows 10
+23-Sep-2025 16:41:24.325 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ¹öÀü:     10.0
+23-Sep-2025 16:41:24.325 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¾ÆÅ°ÅØÃ³:          amd64
+23-Sep-2025 16:41:24.326 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ÀÚ¹Ù È¨:           C:\Users\wd\.jdks\ms-17.0.16
+23-Sep-2025 16:41:24.326 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ¹öÀü:          17.0.16+8-LTS
+23-Sep-2025 16:41:24.326 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM º¥´õ:          Microsoft
+23-Sep-2025 16:41:24.327 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 16:41:24.327 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 16:41:24.337 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Sep-2025 16:41:24.337 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.io=ALL-UNNAMED
+23-Sep-2025 16:41:24.337 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util=ALL-UNNAMED
+23-Sep-2025 16:41:24.337 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Sep-2025 16:41:24.338 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Sep-2025 16:41:24.338 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.home=C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 16:41:24.338 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.base=C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 16:41:24.339 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.io.tmpdir=C:\dev\workspace\jsp_webapp\src\main\webapp\temp
+23-Sep-2025 16:41:24.339 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.config.file=C:\dev\workspace\jsp_webapp\src\main\webapp\conf\logging.properties
+23-Sep-2025 16:41:24.339 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Sep-2025 16:41:24.339 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=64467:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+23-Sep-2025 16:41:24.339 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dfile.encoding=UTF-8
+23-Sep-2025 16:41:24.359 Á¤º¸ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent ÇÁ·Î´ö¼Ç È¯°æµé¿¡¼­ ÃÖÀûÀÇ ¼º´ÉÀ» Á¦°øÇÏ´Â, APR ±â¹İ Apache Tomcat Native ¶óÀÌºê·¯¸®°¡, ´ÙÀ½ java.library.path¿¡¼­ ¹ß°ßµÇÁö ¾Ê½À´Ï´Ù: [C:\Users\wd\.jdks\ms-17.0.16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Terraform;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\Users\wd\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin;;C:\Users\wd\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.1.1\bin;;C:\Users\wd\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+23-Sep-2025 16:41:24.930 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.init ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÃÊ±âÈ­ÇÕ´Ï´Ù.
+23-Sep-2025 16:41:24.986 Á¤º¸ [main] org.apache.catalina.startup.Catalina.load [1084] ¹Ğ¸®ÃÊ ³»¿¡ ¼­¹ö°¡ ÃÊ±âÈ­µÇ¾ú½À´Ï´Ù.
+23-Sep-2025 16:41:25.083 Á¤º¸ [main] org.apache.catalina.core.StandardService.startInternal ¼­ºñ½º [Catalina]À»(¸¦) ½ÃÀÛÇÕ´Ï´Ù.
+23-Sep-2025 16:41:25.084 Á¤º¸ [main] org.apache.catalina.core.StandardEngine.startInternal ¼­¹ö ¿£ÁøÀ» ½ÃÀÛÇÕ´Ï´Ù: [Apache Tomcat/9.0.109]
+23-Sep-2025 16:41:25.117 Á¤º¸ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]À»(¸¦) ¹èÄ¡ÇÕ´Ï´Ù.
+23-Sep-2025 16:41:26.310 °æ°í [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] ¾Ë°í¸®ÁòÀ» »ç¿ëÇÏ¿©, ¼¼¼Ç ID¸¦ »ı¼ºÇÏ±â À§ÇÑ SecureRandom °´Ã¼¸¦ »ı¼ºÇÏ´Âµ¥, [281] ¹Ğ¸®ÃÊ°¡ ¼Ò¿äµÆ½À´Ï´Ù.
+23-Sep-2025 16:41:26.357 Á¤º¸ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]ÀÇ ¹èÄ¡°¡ [1,239] ¹Ğ¸®ÃÊ ³»¿¡ ¿Ï·áµÇ¾ú½À´Ï´Ù.
+23-Sep-2025 16:41:26.377 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.start ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ½ÃÀÛÇÕ´Ï´Ù.
+23-Sep-2025 16:41:26.721 Á¤º¸ [main] org.apache.catalina.startup.Catalina.start ¼­¹ö°¡ [1733] ¹Ğ¸®ÃÊ ³»¿¡ ½ÃÀÛµÇ¾ú½À´Ï´Ù.
+23-Sep-2025 16:43:44.747 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.pause ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÀÏ½Ã Á¤Áö Áß
+23-Sep-2025 16:43:46.002 Á¤º¸ [Thread-1] org.apache.catalina.core.StandardService.stopInternal ¼­ºñ½º [Catalina]À»(¸¦) ÁßÁö½ÃÅµ´Ï´Ù.
+23-Sep-2025 16:43:46.011 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.stop ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÁßÁö½ÃÅµ´Ï´Ù.
+23-Sep-2025 16:43:46.014 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.destroy ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ¼Ò¸ê½ÃÅµ´Ï´Ù.
+23-Sep-2025 16:43:50.439 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¼­¹ö ¹öÀü ÀÌ¸§:    Apache Tomcat/9.0.109
+23-Sep-2025 16:43:50.447 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ºôµå ½Ã°¢:  Sep 1 2025 12:15:33 UTC
+23-Sep-2025 16:43:50.447 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ¹öÀü ¹øÈ£:  9.0.109.0
+23-Sep-2025 16:43:50.448 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ÀÌ¸§:     Windows 10
+23-Sep-2025 16:43:50.448 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ¹öÀü:     10.0
+23-Sep-2025 16:43:50.448 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¾ÆÅ°ÅØÃ³:          amd64
+23-Sep-2025 16:43:50.449 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ÀÚ¹Ù È¨:           C:\Users\wd\.jdks\ms-17.0.16
+23-Sep-2025 16:43:50.449 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ¹öÀü:          17.0.16+8-LTS
+23-Sep-2025 16:43:50.449 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM º¥´õ:          Microsoft
+23-Sep-2025 16:43:50.449 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 16:43:50.449 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 16:43:50.461 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Sep-2025 16:43:50.461 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.io=ALL-UNNAMED
+23-Sep-2025 16:43:50.462 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util=ALL-UNNAMED
+23-Sep-2025 16:43:50.462 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Sep-2025 16:43:50.462 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Sep-2025 16:43:50.462 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.home=C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 16:43:50.463 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.base=C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 16:43:50.463 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.io.tmpdir=C:\dev\workspace\jsp_webapp\src\main\webapp\temp
+23-Sep-2025 16:43:50.463 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.config.file=C:\dev\workspace\jsp_webapp\src\main\webapp\conf\logging.properties
+23-Sep-2025 16:43:50.463 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Sep-2025 16:43:50.463 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=64562:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+23-Sep-2025 16:43:50.464 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dfile.encoding=UTF-8
+23-Sep-2025 16:43:50.483 Á¤º¸ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent ÇÁ·Î´ö¼Ç È¯°æµé¿¡¼­ ÃÖÀûÀÇ ¼º´ÉÀ» Á¦°øÇÏ´Â, APR ±â¹İ Apache Tomcat Native ¶óÀÌºê·¯¸®°¡, ´ÙÀ½ java.library.path¿¡¼­ ¹ß°ßµÇÁö ¾Ê½À´Ï´Ù: [C:\Users\wd\.jdks\ms-17.0.16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Terraform;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\Users\wd\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin;;C:\Users\wd\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.1.1\bin;;C:\Users\wd\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+23-Sep-2025 16:43:50.924 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.init ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÃÊ±âÈ­ÇÕ´Ï´Ù.
+23-Sep-2025 16:43:50.946 Á¤º¸ [main] org.apache.catalina.startup.Catalina.load [905] ¹Ğ¸®ÃÊ ³»¿¡ ¼­¹ö°¡ ÃÊ±âÈ­µÇ¾ú½À´Ï´Ù.
+23-Sep-2025 16:43:51.012 Á¤º¸ [main] org.apache.catalina.core.StandardService.startInternal ¼­ºñ½º [Catalina]À»(¸¦) ½ÃÀÛÇÕ´Ï´Ù.
+23-Sep-2025 16:43:51.014 Á¤º¸ [main] org.apache.catalina.core.StandardEngine.startInternal ¼­¹ö ¿£ÁøÀ» ½ÃÀÛÇÕ´Ï´Ù: [Apache Tomcat/9.0.109]
+23-Sep-2025 16:43:51.028 Á¤º¸ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]À»(¸¦) ¹èÄ¡ÇÕ´Ï´Ù.
+23-Sep-2025 16:43:51.739 °æ°í [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] ¾Ë°í¸®ÁòÀ» »ç¿ëÇÏ¿©, ¼¼¼Ç ID¸¦ »ı¼ºÇÏ±â À§ÇÑ SecureRandom °´Ã¼¸¦ »ı¼ºÇÏ´Âµ¥, [162] ¹Ğ¸®ÃÊ°¡ ¼Ò¿äµÆ½À´Ï´Ù.
+23-Sep-2025 16:43:51.764 Á¤º¸ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]ÀÇ ¹èÄ¡°¡ [736] ¹Ğ¸®ÃÊ ³»¿¡ ¿Ï·áµÇ¾ú½À´Ï´Ù.
+23-Sep-2025 16:43:51.770 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.start ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ½ÃÀÛÇÕ´Ï´Ù.
+23-Sep-2025 16:43:51.945 Á¤º¸ [main] org.apache.catalina.startup.Catalina.start ¼­¹ö°¡ [998] ¹Ğ¸®ÃÊ ³»¿¡ ½ÃÀÛµÇ¾ú½À´Ï´Ù.
+23-Sep-2025 16:46:26.322 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.pause ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÀÏ½Ã Á¤Áö Áß
+23-Sep-2025 16:46:27.490 Á¤º¸ [Thread-1] org.apache.catalina.core.StandardService.stopInternal ¼­ºñ½º [Catalina]À»(¸¦) ÁßÁö½ÃÅµ´Ï´Ù.
+23-Sep-2025 16:46:27.502 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.stop ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÁßÁö½ÃÅµ´Ï´Ù.
+23-Sep-2025 16:46:27.524 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.destroy ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ¼Ò¸ê½ÃÅµ´Ï´Ù.
+23-Sep-2025 16:46:29.972 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¼­¹ö ¹öÀü ÀÌ¸§:    Apache Tomcat/9.0.109
+23-Sep-2025 16:46:29.978 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ºôµå ½Ã°¢:  Sep 1 2025 12:15:33 UTC
+23-Sep-2025 16:46:29.978 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ¹öÀü ¹øÈ£:  9.0.109.0
+23-Sep-2025 16:46:29.979 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ÀÌ¸§:     Windows 10
+23-Sep-2025 16:46:29.979 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ¹öÀü:     10.0
+23-Sep-2025 16:46:29.979 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¾ÆÅ°ÅØÃ³:          amd64
+23-Sep-2025 16:46:29.979 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ÀÚ¹Ù È¨:           C:\Users\wd\.jdks\ms-17.0.16
+23-Sep-2025 16:46:29.980 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ¹öÀü:          17.0.16+8-LTS
+23-Sep-2025 16:46:29.980 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM º¥´õ:          Microsoft
+23-Sep-2025 16:46:29.980 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 16:46:29.980 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 16:46:29.995 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Sep-2025 16:46:29.995 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.io=ALL-UNNAMED
+23-Sep-2025 16:46:29.995 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util=ALL-UNNAMED
+23-Sep-2025 16:46:29.995 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Sep-2025 16:46:29.996 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Sep-2025 16:46:29.996 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.home=C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 16:46:29.996 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.base=C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 16:46:29.996 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.io.tmpdir=C:\dev\workspace\jsp_webapp\src\main\webapp\temp
+23-Sep-2025 16:46:29.996 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.config.file=C:\dev\workspace\jsp_webapp\src\main\webapp\conf\logging.properties
+23-Sep-2025 16:46:29.996 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Sep-2025 16:46:29.997 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=64699:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+23-Sep-2025 16:46:29.997 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dfile.encoding=UTF-8
+23-Sep-2025 16:46:30.021 Á¤º¸ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent ÇÁ·Î´ö¼Ç È¯°æµé¿¡¼­ ÃÖÀûÀÇ ¼º´ÉÀ» Á¦°øÇÏ´Â, APR ±â¹İ Apache Tomcat Native ¶óÀÌºê·¯¸®°¡, ´ÙÀ½ java.library.path¿¡¼­ ¹ß°ßµÇÁö ¾Ê½À´Ï´Ù: [C:\Users\wd\.jdks\ms-17.0.16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Terraform;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\Users\wd\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin;;C:\Users\wd\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.1.1\bin;;C:\Users\wd\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+23-Sep-2025 16:46:30.507 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.init ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÃÊ±âÈ­ÇÕ´Ï´Ù.
+23-Sep-2025 16:46:30.542 Á¤º¸ [main] org.apache.catalina.startup.Catalina.load [957] ¹Ğ¸®ÃÊ ³»¿¡ ¼­¹ö°¡ ÃÊ±âÈ­µÇ¾ú½À´Ï´Ù.
+23-Sep-2025 16:46:30.612 Á¤º¸ [main] org.apache.catalina.core.StandardService.startInternal ¼­ºñ½º [Catalina]À»(¸¦) ½ÃÀÛÇÕ´Ï´Ù.
+23-Sep-2025 16:46:30.614 Á¤º¸ [main] org.apache.catalina.core.StandardEngine.startInternal ¼­¹ö ¿£ÁøÀ» ½ÃÀÛÇÕ´Ï´Ù: [Apache Tomcat/9.0.109]
+23-Sep-2025 16:46:30.639 Á¤º¸ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]À»(¸¦) ¹èÄ¡ÇÕ´Ï´Ù.
+23-Sep-2025 16:46:31.860 °æ°í [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] ¾Ë°í¸®ÁòÀ» »ç¿ëÇÏ¿©, ¼¼¼Ç ID¸¦ »ı¼ºÇÏ±â À§ÇÑ SecureRandom °´Ã¼¸¦ »ı¼ºÇÏ´Âµ¥, [223] ¹Ğ¸®ÃÊ°¡ ¼Ò¿äµÆ½À´Ï´Ù.
+23-Sep-2025 16:46:31.892 Á¤º¸ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]ÀÇ ¹èÄ¡°¡ [1,254] ¹Ğ¸®ÃÊ ³»¿¡ ¿Ï·áµÇ¾ú½À´Ï´Ù.
+23-Sep-2025 16:46:31.902 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.start ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ½ÃÀÛÇÕ´Ï´Ù.
+23-Sep-2025 16:46:32.233 Á¤º¸ [main] org.apache.catalina.startup.Catalina.start ¼­¹ö°¡ [1690] ¹Ğ¸®ÃÊ ³»¿¡ ½ÃÀÛµÇ¾ú½À´Ï´Ù.
+23-Sep-2025 16:50:20.346 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.pause ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÀÏ½Ã Á¤Áö Áß
+23-Sep-2025 16:50:21.515 Á¤º¸ [Thread-1] org.apache.catalina.core.StandardService.stopInternal ¼­ºñ½º [Catalina]À»(¸¦) ÁßÁö½ÃÅµ´Ï´Ù.
+23-Sep-2025 16:50:21.541 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.stop ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÁßÁö½ÃÅµ´Ï´Ù.
+23-Sep-2025 16:50:21.567 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.destroy ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ¼Ò¸ê½ÃÅµ´Ï´Ù.
+23-Sep-2025 16:59:51.254 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¼­¹ö ¹öÀü ÀÌ¸§:    Apache Tomcat/9.0.109
+23-Sep-2025 16:59:51.259 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ºôµå ½Ã°¢:  Sep 1 2025 12:15:33 UTC
+23-Sep-2025 16:59:51.259 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ¹öÀü ¹øÈ£:  9.0.109.0
+23-Sep-2025 16:59:51.260 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ÀÌ¸§:     Windows 10
+23-Sep-2025 16:59:51.260 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ¹öÀü:     10.0
+23-Sep-2025 16:59:51.260 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¾ÆÅ°ÅØÃ³:          amd64
+23-Sep-2025 16:59:51.260 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ÀÚ¹Ù È¨:           C:\Users\wd\.jdks\ms-17.0.16
+23-Sep-2025 16:59:51.261 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ¹öÀü:          17.0.16+8-LTS
+23-Sep-2025 16:59:51.261 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM º¥´õ:          Microsoft
+23-Sep-2025 16:59:51.261 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 16:59:51.261 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 16:59:51.273 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Sep-2025 16:59:51.273 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.io=ALL-UNNAMED
+23-Sep-2025 16:59:51.273 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util=ALL-UNNAMED
+23-Sep-2025 16:59:51.273 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Sep-2025 16:59:51.273 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Sep-2025 16:59:51.273 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.home=C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 16:59:51.274 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.base=C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 16:59:51.274 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.io.tmpdir=C:\dev\workspace\jsp_webapp\src\main\webapp\temp
+23-Sep-2025 16:59:51.274 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.config.file=C:\dev\workspace\jsp_webapp\src\main\webapp\conf\logging.properties
+23-Sep-2025 16:59:51.274 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Sep-2025 16:59:51.274 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=50128:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+23-Sep-2025 16:59:51.274 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dfile.encoding=UTF-8
+23-Sep-2025 16:59:51.297 Á¤º¸ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent ÇÁ·Î´ö¼Ç È¯°æµé¿¡¼­ ÃÖÀûÀÇ ¼º´ÉÀ» Á¦°øÇÏ´Â, APR ±â¹İ Apache Tomcat Native ¶óÀÌºê·¯¸®°¡, ´ÙÀ½ java.library.path¿¡¼­ ¹ß°ßµÇÁö ¾Ê½À´Ï´Ù: [C:\Users\wd\.jdks\ms-17.0.16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Terraform;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\Users\wd\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin;;C:\Users\wd\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.1.1\bin;;C:\Users\wd\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+23-Sep-2025 16:59:51.706 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.init ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÃÊ±âÈ­ÇÕ´Ï´Ù.
+23-Sep-2025 16:59:51.729 Á¤º¸ [main] org.apache.catalina.startup.Catalina.load [843] ¹Ğ¸®ÃÊ ³»¿¡ ¼­¹ö°¡ ÃÊ±âÈ­µÇ¾ú½À´Ï´Ù.
+23-Sep-2025 16:59:51.841 Á¤º¸ [main] org.apache.catalina.core.StandardService.startInternal ¼­ºñ½º [Catalina]À»(¸¦) ½ÃÀÛÇÕ´Ï´Ù.
+23-Sep-2025 16:59:51.841 Á¤º¸ [main] org.apache.catalina.core.StandardEngine.startInternal ¼­¹ö ¿£ÁøÀ» ½ÃÀÛÇÕ´Ï´Ù: [Apache Tomcat/9.0.109]
+23-Sep-2025 16:59:51.865 Á¤º¸ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]À»(¸¦) ¹èÄ¡ÇÕ´Ï´Ù.
+23-Sep-2025 16:59:52.683 °æ°í [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] ¾Ë°í¸®ÁòÀ» »ç¿ëÇÏ¿©, ¼¼¼Ç ID¸¦ »ı¼ºÇÏ±â À§ÇÑ SecureRandom °´Ã¼¸¦ »ı¼ºÇÏ´Âµ¥, [203] ¹Ğ¸®ÃÊ°¡ ¼Ò¿äµÆ½À´Ï´Ù.
+23-Sep-2025 16:59:52.731 Á¤º¸ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]ÀÇ ¹èÄ¡°¡ [866] ¹Ğ¸®ÃÊ ³»¿¡ ¿Ï·áµÇ¾ú½À´Ï´Ù.
+23-Sep-2025 16:59:52.741 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.start ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ½ÃÀÛÇÕ´Ï´Ù.
+23-Sep-2025 16:59:52.946 Á¤º¸ [main] org.apache.catalina.startup.Catalina.start ¼­¹ö°¡ [1216] ¹Ğ¸®ÃÊ ³»¿¡ ½ÃÀÛµÇ¾ú½À´Ï´Ù.
+23-Sep-2025 17:02:20.538 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.pause ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÀÏ½Ã Á¤Áö Áß
+23-Sep-2025 17:02:21.599 Á¤º¸ [Thread-1] org.apache.catalina.core.StandardService.stopInternal ¼­ºñ½º [Catalina]À»(¸¦) ÁßÁö½ÃÅµ´Ï´Ù.
+23-Sep-2025 17:02:21.612 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.stop ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÁßÁö½ÃÅµ´Ï´Ù.
+23-Sep-2025 17:02:21.637 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.destroy ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ¼Ò¸ê½ÃÅµ´Ï´Ù.
+23-Sep-2025 17:02:24.883 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¼­¹ö ¹öÀü ÀÌ¸§:    Apache Tomcat/9.0.109
+23-Sep-2025 17:02:24.890 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ºôµå ½Ã°¢:  Sep 1 2025 12:15:33 UTC
+23-Sep-2025 17:02:24.890 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ¹öÀü ¹øÈ£:  9.0.109.0
+23-Sep-2025 17:02:24.890 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ÀÌ¸§:     Windows 10
+23-Sep-2025 17:02:24.890 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ¹öÀü:     10.0
+23-Sep-2025 17:02:24.890 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¾ÆÅ°ÅØÃ³:          amd64
+23-Sep-2025 17:02:24.890 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ÀÚ¹Ù È¨:           C:\Users\wd\.jdks\ms-17.0.16
+23-Sep-2025 17:02:24.891 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ¹öÀü:          17.0.16+8-LTS
+23-Sep-2025 17:02:24.891 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM º¥´õ:          Microsoft
+23-Sep-2025 17:02:24.891 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 17:02:24.892 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 17:02:24.904 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Sep-2025 17:02:24.904 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.io=ALL-UNNAMED
+23-Sep-2025 17:02:24.904 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util=ALL-UNNAMED
+23-Sep-2025 17:02:24.905 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Sep-2025 17:02:24.905 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Sep-2025 17:02:24.905 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.home=C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 17:02:24.905 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.base=C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 17:02:24.906 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.io.tmpdir=C:\dev\workspace\jsp_webapp\src\main\webapp\temp
+23-Sep-2025 17:02:24.906 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.config.file=C:\dev\workspace\jsp_webapp\src\main\webapp\conf\logging.properties
+23-Sep-2025 17:02:24.907 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Sep-2025 17:02:24.907 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=50258:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+23-Sep-2025 17:02:24.907 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dfile.encoding=UTF-8
+23-Sep-2025 17:02:24.927 Á¤º¸ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent ÇÁ·Î´ö¼Ç È¯°æµé¿¡¼­ ÃÖÀûÀÇ ¼º´ÉÀ» Á¦°øÇÏ´Â, APR ±â¹İ Apache Tomcat Native ¶óÀÌºê·¯¸®°¡, ´ÙÀ½ java.library.path¿¡¼­ ¹ß°ßµÇÁö ¾Ê½À´Ï´Ù: [C:\Users\wd\.jdks\ms-17.0.16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Terraform;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\Users\wd\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin;;C:\Users\wd\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.1.1\bin;;C:\Users\wd\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+23-Sep-2025 17:02:25.324 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.init ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÃÊ±âÈ­ÇÕ´Ï´Ù.
+23-Sep-2025 17:02:25.345 Á¤º¸ [main] org.apache.catalina.startup.Catalina.load [818] ¹Ğ¸®ÃÊ ³»¿¡ ¼­¹ö°¡ ÃÊ±âÈ­µÇ¾ú½À´Ï´Ù.
+23-Sep-2025 17:02:25.407 Á¤º¸ [main] org.apache.catalina.core.StandardService.startInternal ¼­ºñ½º [Catalina]À»(¸¦) ½ÃÀÛÇÕ´Ï´Ù.
+23-Sep-2025 17:02:25.408 Á¤º¸ [main] org.apache.catalina.core.StandardEngine.startInternal ¼­¹ö ¿£ÁøÀ» ½ÃÀÛÇÕ´Ï´Ù: [Apache Tomcat/9.0.109]
+23-Sep-2025 17:02:25.422 Á¤º¸ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]À»(¸¦) ¹èÄ¡ÇÕ´Ï´Ù.
+23-Sep-2025 17:02:26.291 °æ°í [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] ¾Ë°í¸®ÁòÀ» »ç¿ëÇÏ¿©, ¼¼¼Ç ID¸¦ »ı¼ºÇÏ±â À§ÇÑ SecureRandom °´Ã¼¸¦ »ı¼ºÇÏ´Âµ¥, [174] ¹Ğ¸®ÃÊ°¡ ¼Ò¿äµÆ½À´Ï´Ù.
+23-Sep-2025 17:02:26.328 Á¤º¸ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]ÀÇ ¹èÄ¡°¡ [906] ¹Ğ¸®ÃÊ ³»¿¡ ¿Ï·áµÇ¾ú½À´Ï´Ù.
+23-Sep-2025 17:02:26.335 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.start ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ½ÃÀÛÇÕ´Ï´Ù.
+23-Sep-2025 17:02:26.510 Á¤º¸ [main] org.apache.catalina.startup.Catalina.start ¼­¹ö°¡ [1164] ¹Ğ¸®ÃÊ ³»¿¡ ½ÃÀÛµÇ¾ú½À´Ï´Ù.
+23-Sep-2025 17:07:46.221 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.pause ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÀÏ½Ã Á¤Áö Áß
+23-Sep-2025 17:07:47.428 Á¤º¸ [Thread-1] org.apache.catalina.core.StandardService.stopInternal ¼­ºñ½º [Catalina]À»(¸¦) ÁßÁö½ÃÅµ´Ï´Ù.
+23-Sep-2025 17:07:47.443 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.stop ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÁßÁö½ÃÅµ´Ï´Ù.
+23-Sep-2025 17:07:47.453 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.destroy ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ¼Ò¸ê½ÃÅµ´Ï´Ù.
+23-Sep-2025 17:09:04.584 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¼­¹ö ¹öÀü ÀÌ¸§:    Apache Tomcat/9.0.109
+23-Sep-2025 17:09:04.591 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ºôµå ½Ã°¢:  Sep 1 2025 12:15:33 UTC
+23-Sep-2025 17:09:04.591 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ¹öÀü ¹øÈ£:  9.0.109.0
+23-Sep-2025 17:09:04.592 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ÀÌ¸§:     Windows 10
+23-Sep-2025 17:09:04.592 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ¹öÀü:     10.0
+23-Sep-2025 17:09:04.592 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¾ÆÅ°ÅØÃ³:          amd64
+23-Sep-2025 17:09:04.592 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ÀÚ¹Ù È¨:           C:\Users\wd\.jdks\ms-17.0.16
+23-Sep-2025 17:09:04.593 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ¹öÀü:          17.0.16+8-LTS
+23-Sep-2025 17:09:04.593 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM º¥´õ:          Microsoft
+23-Sep-2025 17:09:04.593 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 17:09:04.593 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 17:09:04.606 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Sep-2025 17:09:04.607 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.io=ALL-UNNAMED
+23-Sep-2025 17:09:04.607 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util=ALL-UNNAMED
+23-Sep-2025 17:09:04.607 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Sep-2025 17:09:04.607 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Sep-2025 17:09:04.607 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.home=C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 17:09:04.609 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.base=C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 17:09:04.609 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.io.tmpdir=C:\dev\workspace\jsp_webapp\src\main\webapp\temp
+23-Sep-2025 17:09:04.609 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.config.file=C:\dev\workspace\jsp_webapp\src\main\webapp\conf\logging.properties
+23-Sep-2025 17:09:04.609 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Sep-2025 17:09:04.609 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=50578:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+23-Sep-2025 17:09:04.610 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dfile.encoding=UTF-8
+23-Sep-2025 17:09:04.630 Á¤º¸ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent ÇÁ·Î´ö¼Ç È¯°æµé¿¡¼­ ÃÖÀûÀÇ ¼º´ÉÀ» Á¦°øÇÏ´Â, APR ±â¹İ Apache Tomcat Native ¶óÀÌºê·¯¸®°¡, ´ÙÀ½ java.library.path¿¡¼­ ¹ß°ßµÇÁö ¾Ê½À´Ï´Ù: [C:\Users\wd\.jdks\ms-17.0.16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Terraform;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\Users\wd\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin;;C:\Users\wd\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.1.1\bin;;C:\Users\wd\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+23-Sep-2025 17:09:05.123 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.init ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÃÊ±âÈ­ÇÕ´Ï´Ù.
+23-Sep-2025 17:09:05.150 Á¤º¸ [main] org.apache.catalina.startup.Catalina.load [1016] ¹Ğ¸®ÃÊ ³»¿¡ ¼­¹ö°¡ ÃÊ±âÈ­µÇ¾ú½À´Ï´Ù.
+23-Sep-2025 17:09:05.228 Á¤º¸ [main] org.apache.catalina.core.StandardService.startInternal ¼­ºñ½º [Catalina]À»(¸¦) ½ÃÀÛÇÕ´Ï´Ù.
+23-Sep-2025 17:09:05.229 Á¤º¸ [main] org.apache.catalina.core.StandardEngine.startInternal ¼­¹ö ¿£ÁøÀ» ½ÃÀÛÇÕ´Ï´Ù: [Apache Tomcat/9.0.109]
+23-Sep-2025 17:09:05.245 Á¤º¸ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]À»(¸¦) ¹èÄ¡ÇÕ´Ï´Ù.
+23-Sep-2025 17:09:05.956 °æ°í [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] ¾Ë°í¸®ÁòÀ» »ç¿ëÇÏ¿©, ¼¼¼Ç ID¸¦ »ı¼ºÇÏ±â À§ÇÑ SecureRandom °´Ã¼¸¦ »ı¼ºÇÏ´Âµ¥, [174] ¹Ğ¸®ÃÊ°¡ ¼Ò¿äµÆ½À´Ï´Ù.
+23-Sep-2025 17:09:05.995 Á¤º¸ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]ÀÇ ¹èÄ¡°¡ [749] ¹Ğ¸®ÃÊ ³»¿¡ ¿Ï·áµÇ¾ú½À´Ï´Ù.
+23-Sep-2025 17:09:06.001 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.start ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ½ÃÀÛÇÕ´Ï´Ù.
+23-Sep-2025 17:09:06.191 Á¤º¸ [main] org.apache.catalina.startup.Catalina.start ¼­¹ö°¡ [1041] ¹Ğ¸®ÃÊ ³»¿¡ ½ÃÀÛµÇ¾ú½À´Ï´Ù.
+23-Sep-2025 17:09:22.248 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.pause ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÀÏ½Ã Á¤Áö Áß
+23-Sep-2025 17:09:23.454 Á¤º¸ [Thread-1] org.apache.catalina.core.StandardService.stopInternal ¼­ºñ½º [Catalina]À»(¸¦) ÁßÁö½ÃÅµ´Ï´Ù.
+23-Sep-2025 17:09:23.468 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.stop ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÁßÁö½ÃÅµ´Ï´Ù.
+23-Sep-2025 17:09:23.484 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.destroy ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ¼Ò¸ê½ÃÅµ´Ï´Ù.
+23-Sep-2025 17:16:31.667 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¼­¹ö ¹öÀü ÀÌ¸§:    Apache Tomcat/9.0.109
+23-Sep-2025 17:16:31.672 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ºôµå ½Ã°¢:  Sep 1 2025 12:15:33 UTC
+23-Sep-2025 17:16:31.672 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ¹öÀü ¹øÈ£:  9.0.109.0
+23-Sep-2025 17:16:31.672 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ÀÌ¸§:     Windows 10
+23-Sep-2025 17:16:31.673 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ¹öÀü:     10.0
+23-Sep-2025 17:16:31.673 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¾ÆÅ°ÅØÃ³:          amd64
+23-Sep-2025 17:16:31.673 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ÀÚ¹Ù È¨:           C:\Users\wd\.jdks\ms-17.0.16
+23-Sep-2025 17:16:31.673 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ¹öÀü:          17.0.16+8-LTS
+23-Sep-2025 17:16:31.673 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM º¥´õ:          Microsoft
+23-Sep-2025 17:16:31.673 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 17:16:31.674 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 17:16:31.685 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Sep-2025 17:16:31.685 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.io=ALL-UNNAMED
+23-Sep-2025 17:16:31.685 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util=ALL-UNNAMED
+23-Sep-2025 17:16:31.685 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Sep-2025 17:16:31.685 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Sep-2025 17:16:31.685 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dconsole.encoding=UTF-8
+23-Sep-2025 17:16:31.685 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.config.file=C:\dev\apache-tomcat-9.0.109\conf\logging.properties
+23-Sep-2025 17:16:31.686 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dsun.stdout.encoding=UTF-8
+23-Sep-2025 17:16:31.686 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dsun.stderr.encoding=UTF-8
+23-Sep-2025 17:16:31.686 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.home=C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 17:16:31.686 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.base=C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 17:16:31.687 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.io.tmpdir=C:\dev\workspace\jsp_webapp\src\main\webapp\temp
+23-Sep-2025 17:16:31.687 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Sep-2025 17:16:31.687 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=50966:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+23-Sep-2025 17:16:31.687 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dfile.encoding=UTF-8
+23-Sep-2025 17:16:31.710 Á¤º¸ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent ÇÁ·Î´ö¼Ç È¯°æµé¿¡¼­ ÃÖÀûÀÇ ¼º´ÉÀ» Á¦°øÇÏ´Â, APR ±â¹İ Apache Tomcat Native ¶óÀÌºê·¯¸®°¡, ´ÙÀ½ java.library.path¿¡¼­ ¹ß°ßµÇÁö ¾Ê½À´Ï´Ù: [C:\Users\wd\.jdks\ms-17.0.16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Terraform;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\Users\wd\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin;;C:\Users\wd\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.1.1\bin;;C:\Users\wd\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+23-Sep-2025 17:16:32.183 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.init ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÃÊ±âÈ­ÇÕ´Ï´Ù.
+23-Sep-2025 17:16:32.206 Á¤º¸ [main] org.apache.catalina.startup.Catalina.load [901] ¹Ğ¸®ÃÊ ³»¿¡ ¼­¹ö°¡ ÃÊ±âÈ­µÇ¾ú½À´Ï´Ù.
+23-Sep-2025 17:16:32.293 Á¤º¸ [main] org.apache.catalina.core.StandardService.startInternal ¼­ºñ½º [Catalina]À»(¸¦) ½ÃÀÛÇÕ´Ï´Ù.
+23-Sep-2025 17:16:32.293 Á¤º¸ [main] org.apache.catalina.core.StandardEngine.startInternal ¼­¹ö ¿£ÁøÀ» ½ÃÀÛÇÕ´Ï´Ù: [Apache Tomcat/9.0.109]
+23-Sep-2025 17:16:32.310 Á¤º¸ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]À»(¸¦) ¹èÄ¡ÇÕ´Ï´Ù.
+23-Sep-2025 17:16:33.239 °æ°í [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] ¾Ë°í¸®ÁòÀ» »ç¿ëÇÏ¿©, ¼¼¼Ç ID¸¦ »ı¼ºÇÏ±â À§ÇÑ SecureRandom °´Ã¼¸¦ »ı¼ºÇÏ´Âµ¥, [182] ¹Ğ¸®ÃÊ°¡ ¼Ò¿äµÆ½À´Ï´Ù.
+23-Sep-2025 17:16:33.284 Á¤º¸ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]ÀÇ ¹èÄ¡°¡ [973] ¹Ğ¸®ÃÊ ³»¿¡ ¿Ï·áµÇ¾ú½À´Ï´Ù.
+23-Sep-2025 17:16:33.291 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.start ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ½ÃÀÛÇÕ´Ï´Ù.
+23-Sep-2025 17:16:33.495 Á¤º¸ [main] org.apache.catalina.startup.Catalina.start ¼­¹ö°¡ [1288] ¹Ğ¸®ÃÊ ³»¿¡ ½ÃÀÛµÇ¾ú½À´Ï´Ù.
+23-Sep-2025 17:18:30.275 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.pause ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÀÏ½Ã Á¤Áö Áß
+23-Sep-2025 17:18:31.422 Á¤º¸ [Thread-1] org.apache.catalina.core.StandardService.stopInternal ¼­ºñ½º [Catalina]À»(¸¦) ÁßÁö½ÃÅµ´Ï´Ù.
+23-Sep-2025 17:18:31.434 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.stop ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÁßÁö½ÃÅµ´Ï´Ù.
+23-Sep-2025 17:18:31.449 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.destroy ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ¼Ò¸ê½ÃÅµ´Ï´Ù.
+23-Sep-2025 17:23:59.016 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¼­¹ö ¹öÀü ÀÌ¸§:    Apache Tomcat/9.0.109
+23-Sep-2025 17:23:59.021 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ºôµå ½Ã°¢:  Sep 1 2025 12:15:33 UTC
+23-Sep-2025 17:23:59.021 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ¹öÀü ¹øÈ£:  9.0.109.0
+23-Sep-2025 17:23:59.021 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ÀÌ¸§:     Windows 10
+23-Sep-2025 17:23:59.022 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ¹öÀü:     10.0
+23-Sep-2025 17:23:59.022 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¾ÆÅ°ÅØÃ³:          amd64
+23-Sep-2025 17:23:59.022 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ÀÚ¹Ù È¨:           C:\Users\wd\.jdks\ms-17.0.16
+23-Sep-2025 17:23:59.023 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ¹öÀü:          17.0.16+8-LTS
+23-Sep-2025 17:23:59.023 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM º¥´õ:          Microsoft
+23-Sep-2025 17:23:59.024 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 17:23:59.024 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 17:23:59.036 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Sep-2025 17:23:59.036 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.io=ALL-UNNAMED
+23-Sep-2025 17:23:59.036 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util=ALL-UNNAMED
+23-Sep-2025 17:23:59.037 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Sep-2025 17:23:59.037 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Sep-2025 17:23:59.037 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dconsole.encoding=UTF-8
+23-Sep-2025 17:23:59.037 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.config.file=C:\dev\apache-tomcat-9.0.109\conf\logging.properties
+23-Sep-2025 17:23:59.037 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dsun.stdout.encoding=UTF-8
+23-Sep-2025 17:23:59.038 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dsun.stderr.encoding=UTF-8
+23-Sep-2025 17:23:59.038 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.home=C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 17:23:59.038 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.base=C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 17:23:59.038 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.io.tmpdir=C:\dev\workspace\jsp_webapp\src\main\webapp\temp
+23-Sep-2025 17:23:59.038 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Sep-2025 17:23:59.038 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=51473:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+23-Sep-2025 17:23:59.038 Á¤º¸ [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dfile.encoding=UTF-8
+23-Sep-2025 17:23:59.060 Á¤º¸ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent ÇÁ·Î´ö¼Ç È¯°æµé¿¡¼­ ÃÖÀûÀÇ ¼º´ÉÀ» Á¦°øÇÏ´Â, APR ±â¹İ Apache Tomcat Native ¶óÀÌºê·¯¸®°¡, ´ÙÀ½ java.library.path¿¡¼­ ¹ß°ßµÇÁö ¾Ê½À´Ï´Ù: [C:\Users\wd\.jdks\ms-17.0.16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Terraform;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\Users\wd\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin;;C:\Users\wd\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.1.1\bin;;C:\Users\wd\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+23-Sep-2025 17:23:59.448 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.init ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÃÊ±âÈ­ÇÕ´Ï´Ù.
+23-Sep-2025 17:23:59.470 Á¤º¸ [main] org.apache.catalina.startup.Catalina.load [770] ¹Ğ¸®ÃÊ ³»¿¡ ¼­¹ö°¡ ÃÊ±âÈ­µÇ¾ú½À´Ï´Ù.
+23-Sep-2025 17:23:59.529 Á¤º¸ [main] org.apache.catalina.core.StandardService.startInternal ¼­ºñ½º [Catalina]À»(¸¦) ½ÃÀÛÇÕ´Ï´Ù.
+23-Sep-2025 17:23:59.529 Á¤º¸ [main] org.apache.catalina.core.StandardEngine.startInternal ¼­¹ö ¿£ÁøÀ» ½ÃÀÛÇÕ´Ï´Ù: [Apache Tomcat/9.0.109]
+23-Sep-2025 17:23:59.544 Á¤º¸ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]À»(¸¦) ¹èÄ¡ÇÕ´Ï´Ù.
+23-Sep-2025 17:24:00.229 °æ°í [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] ¾Ë°í¸®ÁòÀ» »ç¿ëÇÏ¿©, ¼¼¼Ç ID¸¦ »ı¼ºÇÏ±â À§ÇÑ SecureRandom °´Ã¼¸¦ »ı¼ºÇÏ´Âµ¥, [176] ¹Ğ¸®ÃÊ°¡ ¼Ò¿äµÆ½À´Ï´Ù.
+23-Sep-2025 17:24:00.262 Á¤º¸ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ¹èÄ¡ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]ÀÇ ¹èÄ¡°¡ [718] ¹Ğ¸®ÃÊ ³»¿¡ ¿Ï·áµÇ¾ú½À´Ï´Ù.
+23-Sep-2025 17:24:00.277 Á¤º¸ [main] org.apache.coyote.AbstractProtocol.start ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ½ÃÀÛÇÕ´Ï´Ù.
+23-Sep-2025 17:24:00.467 Á¤º¸ [main] org.apache.catalina.startup.Catalina.start ¼­¹ö°¡ [996] ¹Ğ¸®ÃÊ ³»¿¡ ½ÃÀÛµÇ¾ú½À´Ï´Ù.
+23-Sep-2025 17:26:01.347 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.pause ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÀÏ½Ã Á¤Áö Áß
+23-Sep-2025 17:26:02.372 Á¤º¸ [Thread-1] org.apache.catalina.core.StandardService.stopInternal ¼­ºñ½º [Catalina]À»(¸¦) ÁßÁö½ÃÅµ´Ï´Ù.
+23-Sep-2025 17:26:02.382 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.stop ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ÁßÁö½ÃÅµ´Ï´Ù.
+23-Sep-2025 17:26:02.385 Á¤º¸ [Thread-1] org.apache.coyote.AbstractProtocol.destroy ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-8080"]À»(¸¦) ¼Ò¸ê½ÃÅµ´Ï´Ù.
+23-Sep-2025 17:26:04.142 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log ì„œë²„ ë²„ì „ ì´ë¦„:    Apache Tomcat/9.0.109
+23-Sep-2025 17:26:04.150 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ë¹Œë“œ ì‹œê°:  Sep 1 2025 12:15:33 UTC
+23-Sep-2025 17:26:04.151 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log Server ë²„ì „ ë²ˆí˜¸:  9.0.109.0
+23-Sep-2025 17:26:04.151 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log ìš´ì˜ì²´ì œ ì´ë¦„:     Windows 10
+23-Sep-2025 17:26:04.151 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log ìš´ì˜ì²´ì œ ë²„ì „:     10.0
+23-Sep-2025 17:26:04.151 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log ì•„í‚¤í…ì²˜:          amd64
+23-Sep-2025 17:26:04.152 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log ìë°” í™ˆ:           C:\Users\wd\.jdks\ms-17.0.16
+23-Sep-2025 17:26:04.152 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ë²„ì „:          17.0.16+8-LTS
+23-Sep-2025 17:26:04.153 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ë²¤ë”:          Microsoft
+23-Sep-2025 17:26:04.153 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 17:26:04.153 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 17:26:04.172 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Sep-2025 17:26:04.172 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  --add-opens=java.base/java.io=ALL-UNNAMED
+23-Sep-2025 17:26:04.173 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  --add-opens=java.base/java.util=ALL-UNNAMED
+23-Sep-2025 17:26:04.173 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Sep-2025 17:26:04.174 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Sep-2025 17:26:04.174 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Dconsole.encoding=UTF-8
+23-Sep-2025 17:26:04.175 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Djava.util.logging.config.file=C:\dev\apache-tomcat-9.0.109\conf\logging.properties
+23-Sep-2025 17:26:04.175 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Dsun.stdout.encoding=UTF-8
+23-Sep-2025 17:26:04.175 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Dsun.stderr.encoding=UTF-8
+23-Sep-2025 17:26:04.176 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Dcatalina.home=C:\dev\apache-tomcat-9.0.109
+23-Sep-2025 17:26:04.176 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Dcatalina.base=C:\dev\workspace\jsp_webapp\src\main\webapp
+23-Sep-2025 17:26:04.176 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Djava.io.tmpdir=C:\dev\workspace\jsp_webapp\src\main\webapp\temp
+23-Sep-2025 17:26:04.176 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Sep-2025 17:26:04.176 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=51560:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+23-Sep-2025 17:26:04.177 ì •ë³´ [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Dfile.encoding=UTF-8
+23-Sep-2025 17:26:04.199 ì •ë³´ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent í”„ë¡œë•ì…˜ í™˜ê²½ë“¤ì—ì„œ ìµœì ì˜ ì„±ëŠ¥ì„ ì œê³µí•˜ëŠ”, APR ê¸°ë°˜ Apache Tomcat Native ë¼ì´ë¸ŒëŸ¬ë¦¬ê°€, ë‹¤ìŒ java.library.pathì—ì„œ ë°œê²¬ë˜ì§€ ì•ŠìŠµë‹ˆë‹¤: [C:\Users\wd\.jdks\ms-17.0.16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Terraform;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\Users\wd\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin;;C:\Users\wd\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.1.1\bin;;C:\Users\wd\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+23-Sep-2025 17:26:04.687 ì •ë³´ [main] org.apache.coyote.AbstractProtocol.init í”„ë¡œí† ì½œ í•¸ë“¤ëŸ¬ ["http-nio-8080"]ì„(ë¥¼) ì´ˆê¸°í™”í•©ë‹ˆë‹¤.
+23-Sep-2025 17:26:04.720 ì •ë³´ [main] org.apache.catalina.startup.Catalina.load [968] ë°€ë¦¬ì´ˆ ë‚´ì— ì„œë²„ê°€ ì´ˆê¸°í™”ë˜ì—ˆìŠµë‹ˆë‹¤.
+23-Sep-2025 17:26:04.818 ì •ë³´ [main] org.apache.catalina.core.StandardService.startInternal ì„œë¹„ìŠ¤ [Catalina]ì„(ë¥¼) ì‹œì‘í•©ë‹ˆë‹¤.
+23-Sep-2025 17:26:04.818 ì •ë³´ [main] org.apache.catalina.core.StandardEngine.startInternal ì„œë²„ ì—”ì§„ì„ ì‹œì‘í•©ë‹ˆë‹¤: [Apache Tomcat/9.0.109]
+23-Sep-2025 17:26:04.832 ì •ë³´ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ë°°ì¹˜ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]ì„(ë¥¼) ë°°ì¹˜í•©ë‹ˆë‹¤.
+23-Sep-2025 17:26:05.546 ê²½ê³  [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] ì•Œê³ ë¦¬ì¦˜ì„ ì‚¬ìš©í•˜ì—¬, ì„¸ì…˜ IDë¥¼ ìƒì„±í•˜ê¸° ìœ„í•œ SecureRandom ê°ì²´ë¥¼ ìƒì„±í•˜ëŠ”ë°, [153] ë°€ë¦¬ì´ˆê°€ ì†Œìš”ëìŠµë‹ˆë‹¤.
+23-Sep-2025 17:26:05.573 ì •ë³´ [main] org.apache.catalina.startup.HostConfig.deployDescriptor ë°°ì¹˜ descriptor [C:\dev\workspace\jsp_webapp\src\main\webapp\conf\Catalina\localhost\ROOT.xml]ì˜ ë°°ì¹˜ê°€ [741] ë°€ë¦¬ì´ˆ ë‚´ì— ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.
+23-Sep-2025 17:26:05.580 ì •ë³´ [main] org.apache.coyote.AbstractProtocol.start í”„ë¡œí† ì½œ í•¸ë“¤ëŸ¬ ["http-nio-8080"]ì„(ë¥¼) ì‹œì‘í•©ë‹ˆë‹¤.
+23-Sep-2025 17:26:05.741 ì •ë³´ [main] org.apache.catalina.startup.Catalina.start ì„œë²„ê°€ [1021] ë°€ë¦¬ì´ˆ ë‚´ì— ì‹œì‘ë˜ì—ˆìŠµë‹ˆë‹¤.
+23-Sep-2025 17:46:12.158 ì •ë³´ [Thread-1] org.apache.coyote.AbstractProtocol.pause í”„ë¡œí† ì½œ í•¸ë“¤ëŸ¬ ["http-nio-8080"]ì„(ë¥¼) ì¼ì‹œ ì •ì§€ ì¤‘
+23-Sep-2025 17:46:13.182 ì •ë³´ [Thread-1] org.apache.catalina.core.StandardService.stopInternal ì„œë¹„ìŠ¤ [Catalina]ì„(ë¥¼) ì¤‘ì§€ì‹œí‚µë‹ˆë‹¤.
+23-Sep-2025 17:46:13.198 ì •ë³´ [Thread-1] org.apache.coyote.AbstractProtocol.stop í”„ë¡œí† ì½œ í•¸ë“¤ëŸ¬ ["http-nio-8080"]ì„(ë¥¼) ì¤‘ì§€ì‹œí‚µë‹ˆë‹¤.
+23-Sep-2025 17:46:13.211 ì •ë³´ [Thread-1] org.apache.coyote.AbstractProtocol.destroy í”„ë¡œí† ì½œ í•¸ë“¤ëŸ¬ ["http-nio-8080"]ì„(ë¥¼) ì†Œë©¸ì‹œí‚µë‹ˆë‹¤.

@@ -1,0 +1,127 @@
+24-Sep-2025 10:47:13.411 심각 [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/ch04/jspTotal.jsp]의 [19] 행에서 오류가 발생했습니다.
+Syntax error on token "(", ; expected
+16:         String[] members = {"홍길동", "김길동", "김연아"};
+17:         int num1 = 10;
+18: 
+19:         int calc(int num2) {
+20:             return num1 + num2;
+21:         }
+22:     %>
+
+
+JSP 파일 [/ch04/jspTotal.jsp]의 [19] 행에서 오류가 발생했습니다.
+Syntax error on token ")", ; expected
+16:         String[] members = {"홍길동", "김길동", "김연아"};
+17:         int num1 = 10;
+18: 
+19:         int calc(int num2) {
+20:             return num1 + num2;
+21:         }
+22:     %>
+
+
+JSP 파일 [/ch04/jspTotal.jsp]의 [20] 행에서 오류가 발생했습니다.
+Void methods cannot return a value
+17:         int num1 = 10;
+18: 
+19:         int calc(int num2) {
+20:             return num1 + num2;
+21:         }
+22:     %>
+23: 
+
+
+JSP 파일 [/ch04/jspTotal.jsp]의 [25] 행에서 오류가 발생했습니다.
+The method calc(int) is undefined for the type jspTotal_jsp
+22:     %>
+23: 
+24:     <h3>3. calc(10) 메서드 실행 결과
+25:         <%= calc(10) %>
+26:     </h3>
+27: </body>
+28: </html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/ch04/jspTotal.jsp]의 [19] 행에서 오류가 발생했습니다.
+Syntax error on token "(", ; expected
+16:         String[] members = {"홍길동", "김길동", "김연아"};
+17:         int num1 = 10;
+18: 
+19:         int calc(int num2) {
+20:             return num1 + num2;
+21:         }
+22:     %>
+
+
+JSP 파일 [/ch04/jspTotal.jsp]의 [19] 행에서 오류가 발생했습니다.
+Syntax error on token ")", ; expected
+16:         String[] members = {"홍길동", "김길동", "김연아"};
+17:         int num1 = 10;
+18: 
+19:         int calc(int num2) {
+20:             return num1 + num2;
+21:         }
+22:     %>
+
+
+JSP 파일 [/ch04/jspTotal.jsp]의 [20] 행에서 오류가 발생했습니다.
+Void methods cannot return a value
+17:         int num1 = 10;
+18: 
+19:         int calc(int num2) {
+20:             return num1 + num2;
+21:         }
+22:     %>
+23: 
+
+
+JSP 파일 [/ch04/jspTotal.jsp]의 [25] 행에서 오류가 발생했습니다.
+The method calc(int) is undefined for the type jspTotal_jsp
+22:     %>
+23: 
+24:     <h3>3. calc(10) 메서드 실행 결과
+25:         <%= calc(10) %>
+26:     </h3>
+27: </body>
+28: </html>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:573)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:344)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:330)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:591)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:378)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:355)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:306)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:656)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:935)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1833)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:975)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:493)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:840)
