@@ -2,6 +2,7 @@ package ch06;
 
 import java.sql.Date;
 
+// DO - Domain Object
 public class Student {
   private int id;
   private String username;
@@ -47,5 +48,13 @@ public class Student {
 
   public void setEmail(String email) {
     this.email = email;
+  }
+
+  @Override
+  public String toString() {
+    return "Student{" +
+        "id=" + id +
+        ", username='" + username + '\'' +
+        '}';
   }
 }

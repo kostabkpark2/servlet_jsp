@@ -1,12 +1,10 @@
 package ch06;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+// DAO - Data Access Object
 public class StudentDAO {
   Connection con = null;
   PreparedStatement pstmt = null;
@@ -31,7 +29,24 @@ public class StudentDAO {
     }
   }
 
-  public void insert(Student s){}
+  public void insert(Student s){
+    open();
+    String sql = "insert into student values(?,?,?,?,?)";
+    // 데이터를 student table 에 추가
+    try {
+      pstmt = con.prepareStatement(sql);
+      pstmt.setInt(1,s.getId());
+      pstmt.setString(2,s.getUsername());
+      pstmt.setString(3,s.getUniv());
+      pstmt.setDate(4,s.getBirth());
+      pstmt.setString(5,s.getEmail());
+      pstmt.executeUpdate();
+    } catch (Exception e) {
+      e.printStackTrace();
+    } finally {
+      close();
+    }
+  }
 
   public List<Student> findAll(){
     open();
