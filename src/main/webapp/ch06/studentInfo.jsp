@@ -21,41 +21,15 @@
         </tr>
         </thead>
         <tbody>
-        <tr>
-            <td>1</td>
-            <td>홍길동</td>
-            <td>AA대학교</td>
-            <td>1990-01-01</td>
-            <td>hong@aa.com</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>홍길동</td>
-            <td>AA대학교</td>
-            <td>1990-01-01</td>
-            <td>hong@aa.com</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>홍길동</td>
-            <td>AA대학교</td>
-            <td>1990-01-01</td>
-            <td>hong@aa.com</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>홍길동</td>
-            <td>AA대학교</td>
-            <td>1990-01-01</td>
-            <td>hong@aa.com</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>홍길동</td>
-            <td>AA대학교</td>
-            <td>1990-01-01</td>
-            <td>hong@aa.com</td>
-        </tr>
+        <c:forEach var="student" varStatus="status" items="${students}" >
+            <tr>
+                <td>${status.count}</td>
+                <td>${student.username}</td>
+                <td>${student.univ}</td>
+                <td>${student.birth}</td>
+                <td>${student.email}</td>
+            </tr>
+        </c:forEach>
         </tbody>
     </table>
 
