@@ -6,8 +6,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 @WebServlet("/products")
 public class ProductController extends HttpServlet {
@@ -31,23 +29,29 @@ public class ProductController extends HttpServlet {
     System.out.println("Method : " + req.getMethod());
     System.out.println("Parameter : " + req.getParameter("action"));
     String action = req.getParameter("action");
-    List<Product> products = new ArrayList<>();
-    Product product = null;
-    String id = "";
-    String view = "/ch05";
+
+    String path = "/ch05";
+    String view ="";
     switch (action) {
       case "list" :
-        products = service.findAll();
-        req.setAttribute("products", products);
-        view += "/product-list.jsp";
+        view = list(req, resp);
         break;
       case "info" :
-        id = req.getParameter("id");
-        product = service.find(id);
-        req.setAttribute("product", product);
-        view += "/product-info.jsp";
+        view = info(req, resp);
         break;
     }
-    req.getRequestDispatcher(view).forward(req, resp);
+    req.getRequestDispatcher(path + view).forward(req, resp);
   }
+
+  private String list(HttpServletRequest req, HttpServletResponse resp) {
+    req.setAttribute("products", service.findAll());
+    return "/product-list.jsp";
+  }
+
+  private String info(HttpServletRequest req, HttpServletResponse resp) {
+    String id = req.getParameter("id");
+    req.setAttribute("product", service.find(id));
+    return "/product-info.jsp";
+  }
+
 }

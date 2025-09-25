@@ -5,3 +5,15 @@
 0:0:0:0:0:0:0:1 - - [25/Sep/2025:09:50:00 +0900] "GET /products?action=info&id=1 HTTP/1.1" 200 386
 0:0:0:0:0:0:0:1 - - [25/Sep/2025:10:01:46 +0900] "GET /products?action=info&id=1 HTTP/1.1" 200 376
 0:0:0:0:0:0:0:1 - - [25/Sep/2025:10:01:47 +0900] "GET /products?action=list HTTP/1.1" 200 606
+0:0:0:0:0:0:0:1 - - [25/Sep/2025:10:16:49 +0900] "GET /products?action=info&id=1 HTTP/1.1" 200 376
+0:0:0:0:0:0:0:1 - - [25/Sep/2025:10:20:26 +0900] "GET /products?action=list HTTP/1.1" 200 770
+0:0:0:0:0:0:0:1 - - [25/Sep/2025:10:20:36 +0900] "GET /products?action=info&id=1 HTTP/1.1" 200 376
+0:0:0:0:0:0:0:1 - - [25/Sep/2025:10:20:42 +0900] "GET /products?action=info&id=1 HTTP/1.1" 200 376
+0:0:0:0:0:0:0:1 - - [25/Sep/2025:10:20:47 +0900] "GET /products?action=info&id=2 HTTP/1.1" 200 376
+0:0:0:0:0:0:0:1 - - [25/Sep/2025:10:20:51 +0900] "GET /products?action=info&id=2 HTTP/1.1" 200 376
+0:0:0:0:0:0:0:1 - - [25/Sep/2025:10:23:27 +0900] "GET /products?action=list HTTP/1.1" 200 1016
+0:0:0:0:0:0:0:1 - - [25/Sep/2025:10:28:09 +0900] "GET /products?action=list HTTP/1.1" 200 1184
+0:0:0:0:0:0:0:1 - - [25/Sep/2025:10:29:13 +0900] "GET /products?action=list HTTP/1.1" 200 1010
+0:0:0:0:0:0:0:1 - - [25/Sep/2025:10:29:55 +0900] "GET /products?action=list HTTP/1.1" 200 1010
+0:0:0:0:0:0:0:1 - - [25/Sep/2025:10:39:08 +0900] "GET /products?action=list HTTP/1.1" 200 1010
+0:0:0:0:0:0:0:1 - - [25/Sep/2025:10:39:11 +0900] "GET /products?action=info&id=110 HTTP/1.1" 200 378

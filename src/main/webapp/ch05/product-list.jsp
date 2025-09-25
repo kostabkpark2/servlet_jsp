@@ -16,10 +16,10 @@
             <th>상품명</th>
             <th>가격</th>
         </tr>
-        <c:forEach var="product" varStatus="index" items="${products}">
+        <c:forEach var="product" varStatus="status" items="${products}">
             <tr>
-                <td>${product.id}</td>
-                <td>${product.name}</td>
+                <td><a href="/products?action=info&id=${product.id}">${status.count}</a></td>
+                <td><a href="/products?action=info&id=${product.id}">${product.name}</a></td>
                 <td>${product.price}</td>
             </tr>
         </c:forEach>
