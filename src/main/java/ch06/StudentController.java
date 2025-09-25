@@ -1,12 +1,13 @@
 package ch06;
 
+import org.apache.commons.beanutils.BeanUtils;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.sql.Date;
 
 @WebServlet("/students")
 public class StudentController extends HttpServlet {
@@ -19,6 +20,7 @@ public class StudentController extends HttpServlet {
 
   @Override
   protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    req.setCharacterEncoding("utf-8");
     String action = req.getParameter("action");
     String view = "";
     String path ="/ch06/";
@@ -34,17 +36,16 @@ public class StudentController extends HttpServlet {
 
   private String insert(HttpServletRequest req, HttpServletResponse resp) {
     Student s = new Student();
-    s.setId(7);
-    s.setUsername("추신수");
-    s.setUniv("Univ");
-    s.setBirth(Date.valueOf("1990-01-01"));
-    s.setEmail("choo@aa.com");
+    try {
+      BeanUtils.populate(s, req.getParameterMap());
+    } catch (Exception e) {
+      throw new RuntimeException(e);
+    }
     dao.insert(s);
-    return null;
+    return list(req,resp);
   }
 
   private String list(HttpServletRequest req, HttpServletResponse resp) {
-    //System.out.println(dao.findAll());
     req.setAttribute("students", dao.findAll());
     return "studentInfo.jsp";
   }

@@ -36,10 +36,10 @@
     <hr>
 
     <form action="/students?action=insert" method="post">
-        <label for="username">이름</label><input type="text" name="username" id="username">
-        <label for="univ">대학</label><input type="text" name="univ" id="univ">
-        <label for="birth">생일</label><input type="text" name="birth" id="birth">
-        <label for="email">이메일</label><input type="text" name="email" id="email">
+        <label for="username">이름</label><input type="text" name="username" id="username"><br>
+        <label for="univ">대학</label><input type="text" name="univ" id="univ"><br>
+        <label for="birth">생일</label><input type="text" name="birth" id="birth"><br>
+        <label for="email">이메일</label><input type="text" name="email" id="email"><br>
         <button type="submit">등록</button>
     </form>
 </body>
