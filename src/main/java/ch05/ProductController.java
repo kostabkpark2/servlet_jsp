@@ -29,7 +29,7 @@ public class ProductController extends HttpServlet {
     System.out.println("Method : " + req.getMethod());
     System.out.println("Parameter : " + req.getParameter("action"));
     String action = req.getParameter("action");
-
+    if(action == null) { action = "list"; }
     String path = "/ch05";
     String view ="";
     switch (action) {
