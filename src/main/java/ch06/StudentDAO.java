@@ -9,7 +9,7 @@ public class StudentDAO {
   Connection con = null;
   PreparedStatement pstmt = null;
   final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-  final String JDBC_URL = "jdbc:mysql://localhost:3800/example?serverTimezone=Asia/Seoul";
+  final String JDBC_URL = "jdbc:mysql://localhost:3306/example?serverTimezone=Asia/Seoul";
   // 메소드 구현
   public void open() {
     try {
