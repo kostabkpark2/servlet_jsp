@@ -31,15 +31,15 @@ public class StudentDAO {
 
   public void insert(Student s){
     open();
-    String sql = "insert into student values(?,?,?,?,?)";
+    String sql = "insert into student(username, univ, birth, email ) values(?,?,?,?)";
     // 데이터를 student table 에 추가
     try {
       pstmt = con.prepareStatement(sql);
-      pstmt.setInt(1,s.getId());
-      pstmt.setString(2,s.getUsername());
-      pstmt.setString(3,s.getUniv());
-      pstmt.setDate(4,s.getBirth());
-      pstmt.setString(5,s.getEmail());
+      //pstmt.setInt(1,s.getId());
+      pstmt.setString(1,s.getUsername());
+      pstmt.setString(2,s.getUniv());
+      pstmt.setDate(3,s.getBirth());
+      pstmt.setString(4,s.getEmail());
       pstmt.executeUpdate();
     } catch (Exception e) {
       e.printStackTrace();

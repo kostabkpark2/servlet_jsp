@@ -21,6 +21,7 @@ public class StudentController extends HttpServlet {
   protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
     String action = req.getParameter("action");
     String view = "";
+    String path ="/ch06/";
     if(action == null) {
       action = "list";
     }
@@ -28,6 +29,7 @@ public class StudentController extends HttpServlet {
       case "list" : view = list(req, resp); break;
       case "insert" : view = insert(req, resp); break;
     }
+    req.getRequestDispatcher(path+view).forward(req, resp);
   }
 
   private String insert(HttpServletRequest req, HttpServletResponse resp) {
@@ -42,7 +44,8 @@ public class StudentController extends HttpServlet {
   }
 
   private String list(HttpServletRequest req, HttpServletResponse resp) {
-    System.out.println(dao.findAll());
-    return null;
+    //System.out.println(dao.findAll());
+    req.setAttribute("students", dao.findAll());
+    return "studentInfo.jsp";
   }
 }
