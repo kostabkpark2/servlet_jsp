@@ -8,15 +8,15 @@ import java.util.List;
 public class StudentDAO {
   Connection con = null;
   PreparedStatement pstmt = null;
-//  final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-  final String JDBC_DRIVER = "org.h2.Driver";
-//  final String JDBC_URL = "jdbc:mysql://localhost:3306/example?serverTimezone=Asia/Seoul";
-  final String JDBC_URL = "jdbc:h2:tcp://localhost/~/example;";
+  final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
+  //final String JDBC_DRIVER = "org.h2.Driver";
+  final String JDBC_URL = "jdbc:mysql://localhost:3306/example?serverTimezone=Asia/Seoul";
+//  final String JDBC_URL = "jdbc:h2:tcp://localhost/~/example;";
   // 메소드 구현
   public void open() {
     try {
       Class.forName(JDBC_DRIVER);
-      con = DriverManager.getConnection(JDBC_URL, "sa", "1111");
+      con = DriverManager.getConnection(JDBC_URL, "root", "1111");
     } catch (Exception e) {
       e.printStackTrace();
     }
