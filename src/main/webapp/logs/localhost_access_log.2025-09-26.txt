@@ -44,3 +44,12 @@
 0:0:0:0:0:0:0:1 - - [26/Sep/2025:15:16:49 +0900] "POST /loginProcess HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [26/Sep/2025:15:16:50 +0900] "GET /ch07/welcome.jsp HTTP/1.1" 200 143
 0:0:0:0:0:0:0:1 - - [26/Sep/2025:15:16:59 +0900] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 864
+0:0:0:0:0:0:0:1 - - [26/Sep/2025:15:32:02 +0900] "GET /ch07/loginForm.jsp HTTP/1.1" 200 317
+0:0:0:0:0:0:0:1 - - [26/Sep/2025:15:32:16 +0900] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 864
+0:0:0:0:0:0:0:1 - - [26/Sep/2025:15:32:37 +0900] "POST /loginProcess HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Sep/2025:15:32:38 +0900] "GET /welcome HTTP/1.1" 500 146
+0:0:0:0:0:0:0:1 - - [26/Sep/2025:15:32:38 +0900] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 864
+0:0:0:0:0:0:0:1 - - [26/Sep/2025:15:33:09 +0900] "GET /welcome HTTP/1.1" 500 146
+0:0:0:0:0:0:0:1 - - [26/Sep/2025:15:33:09 +0900] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 864
+0:0:0:0:0:0:0:1 - - [26/Sep/2025:15:34:17 +0900] "GET /welcome HTTP/1.1" 500 146
+0:0:0:0:0:0:0:1 - - [26/Sep/2025:15:34:18 +0900] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 864
