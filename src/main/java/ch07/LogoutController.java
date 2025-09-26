@@ -15,5 +15,6 @@ public class LogoutController extends HttpServlet {
       cookie.setMaxAge(0);
       resp.addCookie(cookie);
     }
+    req.getRequestDispatcher("/ch07/loginForm.jsp").forward(req,resp);
   }
 }
