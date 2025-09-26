@@ -20,7 +20,7 @@ public class StudentController extends HttpServlet {
 
   @Override
   protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-    req.setCharacterEncoding("utf-8");
+    //req.setCharacterEncoding("utf-8");
     String action = req.getParameter("action");
     String view = "";
     String path ="/ch06/";
@@ -41,6 +41,7 @@ public class StudentController extends HttpServlet {
     } catch (Exception e) {
       throw new RuntimeException(e);
     }
+    System.out.println(s);
     dao.insert(s);
     return list(req,resp);
   }
