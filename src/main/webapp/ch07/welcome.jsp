@@ -7,6 +7,10 @@
 <title>welcome</title>
 </head>
 <body>
-    ${id} 님 반갑습니다.
+    <form action="/logout">
+        ${id}  <button type="submit">로그아웃</button>
+    </form>
+    <br>
+    ${username} 님 반갑습니다.
 </body>
 </html>

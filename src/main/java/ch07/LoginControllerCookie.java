@@ -3,12 +3,14 @@ package ch07;
 import org.apache.commons.beanutils.BeanUtils;
 
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.*;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/loginProcess")
-public class LoginController extends HttpServlet {
+//@WebServlet("/loginProcess")
+public class LoginControllerCookie extends HttpServlet {
   UserDAO dao;
 
   @Override
@@ -29,16 +31,7 @@ public class LoginController extends HttpServlet {
       System.out.println(dto.getId() + ":" + dto.getPassword());
       System.out.println(u);
       if(u != null && u.getPassword().equals(dto.getPassword())){
-        // 세션 생성
-        HttpSession session = req.getSession(true);
-        session.setAttribute("sessionId", session.getId());
-        session.setAttribute("memberId", u.getId());
-        session.setAttribute("username", u.getUsername());
-        session.setMaxInactiveInterval(60 * 10);
-
-        // 세션 정보를 가지는 쿠키를 생성
-
-        Cookie cookie = new Cookie("sessionId",  session.getId());
+        Cookie cookie = new Cookie("memberId", u.getId());
         // 10분(600초) 동안만 유지
         cookie.setMaxAge(60 * 10);
         // 사이트 전체에서 접근 가능하도록 경로 지정
