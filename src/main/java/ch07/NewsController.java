@@ -10,11 +10,13 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.Part;
+import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
 @WebServlet("/news")
-@MultipartConfig(maxFileSize = 1024*1024*2, location="c:/Temp/img")
+@MultipartConfig(maxFileSize = 1024*1024*2)
+//, location="c:/Temp/img")
 public class NewsController extends HttpServlet {
   private NewsDAO dao = null;
   private ServletContext ctx;
@@ -40,14 +42,11 @@ public class NewsController extends HttpServlet {
       case "detail" -> view = getNews(req, resp);
       case "delNews" -> view = delNews(req, resp);
     }
-//    요청된 리소스 [/ch07redirect:/news]은(는) 가용하지 않습니다.
-    // 반환값이 redirect 로 오는 경우
+    // 반환값이 redirect 로 오는 경우, "redirect:/news?action=list";
     if(view.startsWith("redirect:/")) {
-      // "redirect:/news?action=list";
       view = view.substring("redirect:".length());
       resp.sendRedirect(view);
-    } else {
-      // 반환값이 redirect 가 아닌 경우
+    } else {// 반환값이 redirect 가 아닌 경우, forward 로 화면이동
       ctx.getRequestDispatcher(path + view).forward(req, resp);
     }
   }
@@ -59,15 +58,21 @@ public class NewsController extends HttpServlet {
       // 이미지 파일 저장
       Part file = req.getPart("file");
       String fileName = file.getSubmittedFileName();
-      System.out.println(fileName);
+
+      String uploadPath = ctx.getRealPath("") + File.separator + "uploads";
+      File uploadDir = new File(uploadPath);
+      if (!uploadDir.exists()) {
+        uploadDir.mkdirs(); // uploads 폴더가 없으면 생성
+      }
+
+      // 업로드한 파일 이름 가져오고 저장하기
       if(fileName != null && !fileName.isEmpty()) {
+        fileName = uploadPath + File.separator + fileName;
         file.write(fileName);
       }
 
       BeanUtils.populate(n, req.getParameterMap());
       n.setImg(fileName);
-
-      System.out.println(n);
 
       dao.addNews(n);
     } catch (Exception e) {
@@ -116,7 +121,4 @@ public class NewsController extends HttpServlet {
     }
     return "redirect:/news?action=list";
   }
-
-
-
 }
