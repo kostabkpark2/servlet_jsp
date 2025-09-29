@@ -1,9 +1,6 @@
 package ch07;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -65,6 +62,9 @@ public class NewsDAO {
     pstmt.setInt(1, aid);
     ResultSet rs = pstmt.executeQuery();
 
+    if(rs == null) {
+      throw new SQLException("뉴스 가져오기 에러");
+    }
     rs.next();
 
     try(con; pstmt; rs) {
@@ -77,5 +77,16 @@ public class NewsDAO {
     return n;
   }
 
-  public void delNews(int aid) throws Exception {}
+  public void delNews(int aid) throws Exception {
+    Connection con = open();
+    String sql = "delete from news where aid = ?";
+    PreparedStatement pstmt = con.prepareStatement(sql);
+
+    try(con; pstmt) {
+      pstmt.setInt(1, aid);
+      if(pstmt.executeUpdate() == 0) {
+        throw new SQLException("뉴스 삭제 에러");
+      };
+    }
+  }
 }
