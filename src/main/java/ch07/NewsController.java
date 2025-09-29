@@ -4,15 +4,17 @@ import org.apache.commons.beanutils.BeanUtils;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.Part;
 import java.io.IOException;
 import java.util.List;
-import java.util.Map;
 
 @WebServlet("/news")
+@MultipartConfig(maxFileSize = 1024*1024*2, location="c:/Temp/img")
 public class NewsController extends HttpServlet {
   private NewsDAO dao = null;
   private ServletContext ctx;
@@ -38,16 +40,35 @@ public class NewsController extends HttpServlet {
       case "detail" -> view = getNews(req, resp);
       case "delNews" -> view = delNews(req, resp);
     }
-    ctx.getRequestDispatcher(path+view).forward(req,resp);
+//    요청된 리소스 [/ch07redirect:/news]은(는) 가용하지 않습니다.
+    // 반환값이 redirect 로 오는 경우
+    if(view.startsWith("redirect:/")) {
+      // "redirect:/news?action=list";
+      view = view.substring("redirect:".length());
+      resp.sendRedirect(view);
+    } else {
+      // 반환값이 redirect 가 아닌 경우
+      ctx.getRequestDispatcher(path + view).forward(req, resp);
+    }
   }
 
   private String addNews(HttpServletRequest req, HttpServletResponse resp) {
     NewsDTO n = new NewsDTO();
 
     try {
-      Map<String, String[]> parameterMap = req.getParameterMap();
-      System.out.println(parameterMap.get("title") + ":" + parameterMap.get("img") + parameterMap.get("content") );
-      BeanUtils.populate(n, parameterMap);
+      // 이미지 파일 저장
+      Part file = req.getPart("file");
+      String fileName = file.getSubmittedFileName();
+      System.out.println(fileName);
+      if(fileName != null && !fileName.isEmpty()) {
+        file.write(fileName);
+      }
+
+      BeanUtils.populate(n, req.getParameterMap());
+      n.setImg(fileName);
+
+      System.out.println(n);
+
       dao.addNews(n);
     } catch (Exception e) {
       e.printStackTrace();

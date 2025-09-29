@@ -28,4 +28,13 @@ public class NewsDTO {
   public void setContent(String content) {
     this.content = content;
   }
+
+  @Override
+  public String toString() {
+    return "NewsDTO{" +
+        "title='" + title + '\'' +
+        ", img='" + img + '\'' +
+        ", content='" + content + '\'' +
+        '}';
+  }
 }

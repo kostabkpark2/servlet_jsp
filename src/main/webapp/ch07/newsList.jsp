@@ -41,12 +41,11 @@
     </button>
     <div class="collapse" id="addForm">
         <div class="card card-body">
-            <form action="/news?action=addNews" method="post" >
-<%--                enctype="multipart/form-data">--%>
+            <form action="/news?action=addNews" method="post" enctype="multipart/form-data">
                 <label for="title" class="form-label">제목</label>
                 <input type="text" name="title" id="title" class="form-control">
                 <label for="file" class="form-label">이미지</label>
-                <input type="text" name="img" id="file" class="form-control">
+                <input type="file" name="file" id="file" class="form-control">
                 <label for="content" class="form-label">기사내용</label>
                 <input type="text" name="content" id="content" class="form-control">
                 <button type="submit" class="btn btn-success mt-3">저장</button>
