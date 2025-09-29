@@ -368,3 +368,6 @@
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:493)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:840)
+26-Sep-2025 17:12:04.553 정보 [Thread-1] org.apache.catalina.core.ApplicationContext.log servlet context 가 종료됨 !!!!!!!!!!!!!!!!!!!!!!!!
+26-Sep-2025 18:03:52.569 정보 [main] org.apache.catalina.core.ApplicationContext.log servlet context 가 시작됨 !!!!!!!!!!!!!!!!!!!!!!!!
+26-Sep-2025 18:45:08.901 정보 [Thread-1] org.apache.catalina.core.ApplicationContext.log servlet context 가 종료됨 !!!!!!!!!!!!!!!!!!!!!!!!
