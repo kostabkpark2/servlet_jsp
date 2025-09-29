@@ -16,7 +16,7 @@ import java.util.List;
 
 @WebServlet("/news")
 @MultipartConfig(maxFileSize = 1024*1024*2)
-//, location="c:/Temp/img")
+//, location="C:/dev/apache-tomcat-9.0.109/webapps/upload")
 public class NewsController extends HttpServlet {
   private NewsDAO dao = null;
   private ServletContext ctx;
@@ -64,15 +64,19 @@ public class NewsController extends HttpServlet {
       if (!uploadDir.exists()) {
         uploadDir.mkdirs(); // uploads 폴더가 없으면 생성
       }
-
+//      String uploadPath = "C:\\dev\\apache-tomcat-9.0.109\\webapps\\upload";
+//      File uploadDir = new File(uploadPath);
+//      if (!uploadDir.exists()) {
+//        uploadDir.mkdirs(); // uploads 폴더가 없으면 생성
+//      }
       // 업로드한 파일 이름 가져오고 저장하기
       if(fileName != null && !fileName.isEmpty()) {
-        System.out.println(fileName);
+//        System.out.println(fileName);
         file.write(uploadPath + "\\" + fileName);
       }
 
       BeanUtils.populate(n, req.getParameterMap());
-      n.setImg("\\uploads\\" + fileName);
+      n.setImg("/uploads/" + fileName);
 
       dao.addNews(n);
     } catch (Exception e) {

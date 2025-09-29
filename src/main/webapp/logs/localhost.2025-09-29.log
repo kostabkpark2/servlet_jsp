@@ -147,3 +147,99 @@
 29-Sep-2025 16:00:36.159 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.runtime.JspApplicationContextImpl@1c0c978e
 29-Sep-2025 16:00:36.234 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@503846e4
 29-Sep-2025 16:00:36.236 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.StringInterpreterFactory$DefaultStringInterpreter@75981c40
+29-Sep-2025 16:17:23.660 정보 [Thread-1] org.apache.catalina.core.ApplicationContext.log servlet context 가 종료됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 16:17:31.276 정보 [main] org.apache.catalina.core.ApplicationContext.log servlet context 가 시작됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 16:17:35.962 정보 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.runtime.JspApplicationContextImpl@784915a5
+29-Sep-2025 16:17:36.062 정보 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@fc6b086
+29-Sep-2025 16:17:36.063 정보 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.StringInterpreterFactory$DefaultStringInterpreter@68279c46
+29-Sep-2025 16:19:36.150 정보 [Thread-1] org.apache.catalina.core.ApplicationContext.log servlet context 가 종료됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 16:19:44.218 정보 [main] org.apache.catalina.core.ApplicationContext.log servlet context 가 시작됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 16:19:49.970 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.runtime.JspApplicationContextImpl@498978ca
+29-Sep-2025 16:19:50.068 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@23c35e46
+29-Sep-2025 16:19:50.071 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.StringInterpreterFactory$DefaultStringInterpreter@831ca73
+29-Sep-2025 16:21:00.027 정보 [Thread-1] org.apache.catalina.core.ApplicationContext.log servlet context 가 종료됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 16:21:09.459 정보 [main] org.apache.catalina.core.ApplicationContext.log servlet context 가 시작됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 16:21:12.104 정보 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.runtime.JspApplicationContextImpl@7bb3f57a
+29-Sep-2025 16:21:12.206 정보 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@22faec0d
+29-Sep-2025 16:21:12.209 정보 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.StringInterpreterFactory$DefaultStringInterpreter@49209b31
+29-Sep-2025 16:29:16.903 정보 [Thread-1] org.apache.catalina.core.ApplicationContext.log servlet context 가 종료됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 16:29:24.434 정보 [main] org.apache.catalina.core.ApplicationContext.log servlet context 가 시작됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 16:29:27.126 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.runtime.JspApplicationContextImpl@6d0d7583
+29-Sep-2025 16:29:27.216 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@5252c50d
+29-Sep-2025 16:29:27.218 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.StringInterpreterFactory$DefaultStringInterpreter@27cc4c4e
+29-Sep-2025 16:31:29.776 정보 [Thread-1] org.apache.catalina.core.ApplicationContext.log servlet context 가 종료됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 16:31:39.175 정보 [main] org.apache.catalina.core.ApplicationContext.log servlet context 가 시작됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 16:32:32.450 정보 [Thread-1] org.apache.catalina.core.ApplicationContext.log servlet context 가 종료됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 16:32:41.649 정보 [main] org.apache.catalina.core.ApplicationContext.log servlet context 가 시작됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 16:32:50.289 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.runtime.JspApplicationContextImpl@66e361e0
+29-Sep-2025 16:32:50.366 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@751ea7ed
+29-Sep-2025 16:32:50.367 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.StringInterpreterFactory$DefaultStringInterpreter@23dad823
+29-Sep-2025 16:34:10.340 정보 [Thread-1] org.apache.catalina.core.ApplicationContext.log servlet context 가 종료됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 16:34:15.841 정보 [main] org.apache.catalina.core.ApplicationContext.log servlet context 가 시작됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 16:34:45.914 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.runtime.JspApplicationContextImpl@43705bb1
+29-Sep-2025 16:34:45.998 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@7e648b10
+29-Sep-2025 16:34:45.999 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.StringInterpreterFactory$DefaultStringInterpreter@1e570178
+29-Sep-2025 16:35:40.332 정보 [Thread-1] org.apache.catalina.core.ApplicationContext.log servlet context 가 종료됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 16:35:47.823 정보 [main] org.apache.catalina.core.ApplicationContext.log servlet context 가 시작됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 16:36:09.230 정보 [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.runtime.JspApplicationContextImpl@3a91dd63
+29-Sep-2025 16:36:09.367 정보 [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@5e4b4c31
+29-Sep-2025 16:36:09.369 정보 [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.StringInterpreterFactory$DefaultStringInterpreter@1cec37e5
+29-Sep-2025 16:36:09.943 정보 [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log 뉴스 삭제 중 exception 발생
+29-Sep-2025 16:36:10.620 정보 [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log 뉴스 삭제 중 exception 발생
+29-Sep-2025 16:37:53.543 정보 [Thread-1] org.apache.catalina.core.ApplicationContext.log servlet context 가 종료됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 16:37:59.071 정보 [main] org.apache.catalina.core.ApplicationContext.log servlet context 가 시작됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 16:39:06.987 정보 [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log 뉴스 삭제 중 exception 발생
+29-Sep-2025 16:39:07.295 정보 [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.runtime.JspApplicationContextImpl@5419bbe0
+29-Sep-2025 16:39:07.409 정보 [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@6da62d97
+29-Sep-2025 16:39:07.411 정보 [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.StringInterpreterFactory$DefaultStringInterpreter@7b42171e
+29-Sep-2025 17:09:03.630 정보 [Thread-1] org.apache.catalina.core.ApplicationContext.log servlet context 가 종료됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 17:09:15.251 정보 [main] org.apache.catalina.core.ApplicationContext.log servlet context 가 시작됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 17:09:23.585 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log 뉴스 삭제 중 exception 발생
+29-Sep-2025 17:09:24.159 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.runtime.JspApplicationContextImpl@7a75664e
+29-Sep-2025 17:09:24.229 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@7ac15d5c
+29-Sep-2025 17:09:24.232 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.StringInterpreterFactory$DefaultStringInterpreter@43fc4421
+29-Sep-2025 17:09:25.445 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log 세션이 생성됨 : 9E8FCCA2443572E05F2D77A0C7418664
+29-Sep-2025 17:16:58.601 정보 [Thread-1] org.apache.catalina.core.ApplicationContext.log servlet context 가 종료됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 17:17:06.170 정보 [main] org.apache.catalina.core.ApplicationContext.log servlet context 가 시작됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 17:19:23.832 정보 [Thread-1] org.apache.catalina.core.ApplicationContext.log servlet context 가 종료됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 17:19:31.373 정보 [main] org.apache.catalina.core.ApplicationContext.log servlet context 가 시작됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 17:19:38.303 정보 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.runtime.JspApplicationContextImpl@101f5015
+29-Sep-2025 17:19:38.377 정보 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@3098b40a
+29-Sep-2025 17:19:38.379 정보 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.StringInterpreterFactory$DefaultStringInterpreter@386a5b61
+29-Sep-2025 17:20:12.672 정보 [Thread-1] org.apache.catalina.core.ApplicationContext.log servlet context 가 종료됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 17:28:31.347 정보 [main] org.apache.catalina.core.ApplicationContext.log servlet context 가 시작됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 17:28:45.026 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.runtime.JspApplicationContextImpl@719b7d2e
+29-Sep-2025 17:28:45.130 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@4cf60253
+29-Sep-2025 17:28:45.132 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.StringInterpreterFactory$DefaultStringInterpreter@5dd9c935
+29-Sep-2025 17:28:46.616 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log 세션이 생성됨 : 22EE5D5C4B6605AC8A957AFEFE4E449C
+29-Sep-2025 17:34:32.845 정보 [Thread-1] org.apache.catalina.core.ApplicationContext.log servlet context 가 종료됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 17:34:56.984 정보 [main] org.apache.catalina.core.ApplicationContext.log servlet context 가 시작됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 17:35:57.432 정보 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.runtime.JspApplicationContextImpl@199ed9fe
+29-Sep-2025 17:35:57.553 정보 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@2809dba9
+29-Sep-2025 17:35:57.554 정보 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.StringInterpreterFactory$DefaultStringInterpreter@78429e1d
+29-Sep-2025 17:43:22.090 정보 [Thread-1] org.apache.catalina.core.ApplicationContext.log servlet context 가 종료됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 17:43:29.400 정보 [main] org.apache.catalina.core.ApplicationContext.log servlet context 가 시작됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 17:43:54.353 정보 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.runtime.JspApplicationContextImpl@21acdaff
+29-Sep-2025 17:43:54.453 정보 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@49ba1af6
+29-Sep-2025 17:43:54.455 정보 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.StringInterpreterFactory$DefaultStringInterpreter@2cb4c6c1
+29-Sep-2025 17:46:09.349 정보 [Thread-1] org.apache.catalina.core.ApplicationContext.log servlet context 가 종료됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 17:46:18.155 정보 [main] org.apache.catalina.core.ApplicationContext.log servlet context 가 시작됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 17:51:20.216 정보 [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.runtime.JspApplicationContextImpl@590e064d
+29-Sep-2025 17:51:20.279 정보 [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@26d979c9
+29-Sep-2025 17:51:20.280 정보 [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.StringInterpreterFactory$DefaultStringInterpreter@77c27ad1
+29-Sep-2025 18:12:07.021 정보 [Thread-1] org.apache.catalina.core.ApplicationContext.log servlet context 가 종료됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 18:12:15.829 정보 [main] org.apache.catalina.core.ApplicationContext.log servlet context 가 시작됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 18:12:37.383 정보 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.runtime.JspApplicationContextImpl@760b2853
+29-Sep-2025 18:12:37.493 정보 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@540eff4c
+29-Sep-2025 18:12:37.496 정보 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.StringInterpreterFactory$DefaultStringInterpreter@5b47d344
+29-Sep-2025 18:13:59.360 정보 [Thread-1] org.apache.catalina.core.ApplicationContext.log servlet context 가 종료됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 18:14:06.707 정보 [main] org.apache.catalina.core.ApplicationContext.log servlet context 가 시작됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 18:14:15.840 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.runtime.JspApplicationContextImpl@56b2d24c
+29-Sep-2025 18:14:15.905 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@2e41c0c4
+29-Sep-2025 18:14:15.906 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.StringInterpreterFactory$DefaultStringInterpreter@780055ee
+29-Sep-2025 18:16:00.605 정보 [Thread-1] org.apache.catalina.core.ApplicationContext.log servlet context 가 종료됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 18:17:42.622 정보 [main] org.apache.catalina.core.ApplicationContext.log servlet context 가 시작됨 !!!!!!!!!!!!!!!!!!!!!!!!
+29-Sep-2025 18:17:55.168 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.runtime.JspApplicationContextImpl@22412822
+29-Sep-2025 18:17:55.315 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@2b535e23
+29-Sep-2025 18:17:55.317 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Servlet Context 속성 추가org.apache.jasper.compiler.StringInterpreterFactory$DefaultStringInterpreter@168c9097
+29-Sep-2025 18:17:57.036 정보 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log 세션이 생성됨 : AF8B7DBFA20CD738472D73A60D592C20

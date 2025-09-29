@@ -38,7 +38,7 @@ public class NewsDAO {
   public List<News> findAll() throws Exception {
     Connection con = open();
     List<News> newsList = new ArrayList<>();
-    String sql = "select aid, title, date_format(date, '%Y-%m-%d %h:%m:%s') as cdate from news ";
+    String sql = "select aid, title, date_format(date, '%Y-%m-%d %H:%i:%s') as cdate from news ";
     PreparedStatement pstmt = con.prepareStatement(sql);
     ResultSet rs = pstmt.executeQuery();
 
