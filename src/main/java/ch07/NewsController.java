@@ -67,12 +67,12 @@ public class NewsController extends HttpServlet {
 
       // 업로드한 파일 이름 가져오고 저장하기
       if(fileName != null && !fileName.isEmpty()) {
-        fileName = uploadPath + File.separator + fileName;
-        file.write(fileName);
+        System.out.println(fileName);
+        file.write(uploadPath + "\\" + fileName);
       }
 
       BeanUtils.populate(n, req.getParameterMap());
-      n.setImg(fileName);
+      n.setImg("\\uploads\\" + fileName);
 
       dao.addNews(n);
     } catch (Exception e) {
