@@ -19,10 +19,29 @@
     <ul class="list-group">
         <c:forEach varStatus="status" var="news" items="${newsList}">
         <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                ${news.aid},${news.title}, ${news.date}
+            <a href="/news?action=detail&aid=${news.aid}" class="text-decoration-none">
+                [${status.count}] ${news.title},${news.date}
+            </a>
+            <a href="/news?action=delNews&aid=${news.aid}">
+                <span class="badge bg-secondary">&times;</span>
+            </a>
         </li>
         </c:forEach>
     </ul>
+    <c:if test="${error != null}">
+        <div class="alert alert-danger alert-dismissible fade show mt-3">
+            에러 발생 : ${error}
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    </c:if>
+
+    <button class="btn btn-outline-info mb-3" type="button" data-bs-toggle="collapse"
+            data-bs-target="#addForm" aria-expanded="false" aria-controls="addForm">
+        뉴스 등록
+    </button>
+    <div class="collapse" id="addForm">
+        뉴스 등록 입력 form
+    </div>
 </body>
 </body>
 </html>
