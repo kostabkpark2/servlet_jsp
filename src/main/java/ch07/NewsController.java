@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
+import java.util.Map;
 
 @WebServlet("/news")
 public class NewsController extends HttpServlet {
@@ -44,7 +45,9 @@ public class NewsController extends HttpServlet {
     NewsDTO n = new NewsDTO();
 
     try {
-      BeanUtils.populate(n, req.getParameterMap());
+      Map<String, String[]> parameterMap = req.getParameterMap();
+      System.out.println(parameterMap.get("title") + ":" + parameterMap.get("img") + parameterMap.get("content") );
+      BeanUtils.populate(n, parameterMap);
       dao.addNews(n);
     } catch (Exception e) {
       e.printStackTrace();

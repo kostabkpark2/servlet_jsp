@@ -23,7 +23,7 @@
                 [${status.count}] ${news.title},${news.date}
             </a>
             <a href="/news?action=delNews&aid=${news.aid}">
-                <span class="badge bg-secondary">&times;</span>
+                <span class="badge bg-secondary">&#10006;</span>
             </a>
         </li>
         </c:forEach>
@@ -40,7 +40,18 @@
         뉴스 등록
     </button>
     <div class="collapse" id="addForm">
-        뉴스 등록 입력 form
+        <div class="card card-body">
+            <form action="/news?action=addNews" method="post" >
+<%--                enctype="multipart/form-data">--%>
+                <label for="title" class="form-label">제목</label>
+                <input type="text" name="title" id="title" class="form-control">
+                <label for="file" class="form-label">이미지</label>
+                <input type="text" name="img" id="file" class="form-control">
+                <label for="content" class="form-label">기사내용</label>
+                <input type="text" name="content" id="content" class="form-control">
+                <button type="submit" class="btn btn-success mt-3">저장</button>
+            </form>
+        </div>
     </div>
 </body>
 </body>
