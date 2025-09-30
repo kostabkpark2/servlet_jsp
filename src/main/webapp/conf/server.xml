@@ -199,9 +199,9 @@
              path : 웹에서 접근할 url경로
              (예시) C:/Temp/img/test.jpg → 브라우저에서 http://localhost:8080/upload/test.jpg 로 접근 가능
         -->
-                
-
-      
+        
+        <!--        <Context docBase="C:/dev/apache-tomcat-9.0.109/webapps/upload" path="/upload" reloadable="true" />-->
+              
       </Host>
           
     </Engine>
